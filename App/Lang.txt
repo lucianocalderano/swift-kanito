@@ -1,0 +1,301 @@
+tour.pvt.01=DISCOVER|SCOPRI
+tour.pvt.02=- THE BEST PET SERVICES\n- PET OWNERS NEARBY\n- PETS LIKE YOURS!|- I MIGLIORI SERVIZI PET\n- I PROPRIETARI VICINO A TE\n- ALTRI CANI COME IL TUO!
+tour.pvt.11=BOOK|PRENOTA
+tour.pvt.12=- GROOMING SERVICES\n- TRAINING CLASSES\n- AND MUCH MORE!|- SERVIZI DI TOELETTA\n- LEZIONI DI EDUCAZIONE\n- E MOLTO ALTRO!
+tour.pvt.21=CONNECT|CONNETTITI
+tour.pvt.22=- TO YOUR USUAL PET SERVICE\n- KEEP TRACK OF ALL YOUR ACTIVITIES|- AL TUO SERVIZIO PET DI FIDUCIA\n- TIENI NOTA DEI TUOI APPUNTAMENTI
+tour.pvt.23=RUN A PET SERVICE ?|SEI UN SERVIZIO PET ?
+tour.biz.01=- BE VISIBLE|- FATTI VEDERE
+tour.biz.02=AMONG THE MOST ACTIVE PET OWNERS AROUND YOU|DAI PROPRIETARI DI PET INTORNO A TE
+tour.biz.11=RECEIVE|RICEVI
+tour.biz.12=RESERVATION FORM EXISTING AND NEW CUSTOMERS|PRENOTAZIONI DA CLIENTI VECCHI E QUELLI NUOVI
+tour.biz.21=MANAGE|GESTISCI
+tour.biz.22=YOUR CUSTOMERS ACTIVITIES WITH ONE CLICK|LE ATTIVITA' DEI TUOI CLIENTI CON UN CLICK
+tour.biz.23=FIND OUT MORE !|SCOPRI DI PIU' !
+
+-------------------- MENU ----------------
+
+menuBiz.Dash=DASHBOARD|CRUSCOTTO
+menuBiz.Dogs=DOGS (#)|CANI (#)
+menuBiz.Cust=CUSTOMERS (#)|CLIENTI (#)
+menuBiz.Less=RESERVATIONS|PRENOTAZIONI
+menuBiz.Logout=LOGOUT|LOGOUT
+menuBiz.GotoPvt=BACK TO SOCIAL|VAI AL SOCIAL
+
+menuPvt.Home=Home|Home
+menuPvt.MyKanito=My Kanito|Il mio Kanito
+menuPvt.Logout=Logout|Logout
+menuPvt.Dogbuddy=Dog Buddy|Dog Buddy
+
+-------------------- BIZ --------------
+
+dashboard.Title=DASHBOARD|CRUSCOTTO
+dashboard.Cust=Cust.|Clienti
+dashboard.Dogs=Dogs|Cani
+dashboard.Month=Month|Mese
+dashboard.Today=Today|Oggi
+dashboard.Debt=LATEST DEBTS|DEBITI ATTIVI
+dashboard.ResG=GROUP LESSONS|LEZIONI DI GRUPPO DEL GIORNO
+dashboard.ResS=SINGLE LESSONS|LEZIONI SINGOLE DEL GIORNO
+dashboard.Task=TASKS|IMPEGNI
+dashboard.NoGrpLess=No group lessons today!|Oggi non ci sono lezioni di gruppo!
+dashboard.NoSngLess=No single lessons today!|Oggi non ci sono lezioni singole!
+
+------------ Customer list -------------
+
+custList.Title=CUSTOMER LIST|ELENCO CLIENTI
+custList.Srch=CUSTOMER SEARCH|CERCA CLIENTI ...
+
+custDett.Data=Data|Dati
+custDett.Dogs=Dogs|Cani
+custDett.Rese=Reservations|Prenotazioni
+
+------------ Dog list ------------------
+
+dogsList.Title=DOGS LIST|ELENCO CANI
+dogsList.Srch=Dogs search ...|Ricerca cane ...
+
+dogsDett.Breed1=PRIMARY BREED|RAZZA PRIMARIA
+dogsDett.Breed2=SECONDARY BREED|RAZZA SECONDARIA
+dogsDett.LessLevel=LESSON LEVEL|LIVELLO LEZIONI
+dogsDett.Microchip=MICROCHIP|MICROCHIP
+dogsDett.BirthDay=BIRTH DAY|DATA DI NASCITA
+dogsDett.DogSize=SIZE|DIMENSIONE
+dogsDett.DogMood=MOOD|TEMPERAMENTO
+dogsDett.DogData=DATA|DATI
+dogsDett.Owner=OWNER|PADRONE
+
+/*** Reservation ***/
+
+listRese.Title=Reservations|Prenotazioni
+listRese.Grp=Group lessons|Lezioni di gruppo
+listRese.Sng=Single lessons|Lezioni singole
+
+-------------------- Login & Registrazione ----------------
+
+usrLogin.Title=Your Pet, One Solution™|Your Pet, One Solution™
+usrLogin.NoPass=Please insert your password correctly|Inserire la password
+usrLogin.NoUser=Please insert your username correctly|Inserire il nome utente
+usrLogin.Forgot=Forgot your password?|Password dimenticata?
+usrLogin.RegNow=Register now|Registrati subito
+usrLogin.FB=Login with Facebook|Login con Facebook
+usrLogin.AlertTitle=Login|Login
+
+loginMain.LogNow=Log in|Accedi
+loginMain.RegNow=Sign up|Registrati
+loginMain.User=Pet owner|Utente privato
+loginMain.Serv=Pet service|Servizio pet
+loginMain.UserDesc=Own or want a pet.|Possiedi o vuoi un pet.
+loginMain.ServDesc=Daycare, Pet Sitter, Grooming...|Asilo, Pet sitter, Toeletta...
+loginMain.ToUploadHead=WELCOME!|BENVENUTO!
+loginMain.ToUploadDesc=Log in or sign up to share your photos|Accedi o registrati per condividere le foto
+
+regUser.Ok=Registration success|Registratione effettuta
+regUser.MsgTerms=By registering you accept the service terms and conditions|Registrandoti accetti termini e condizioni del servizio
+
+regUserType.Title=REGISTER AS|REGISTRATI COME
+
+regUserPvt.Title=SIGN UP AS PET OWNER|REGISTRATI COME UTENTE PRIVATO
+regUserPvt.Footer=SIGN UP NOW!|REGISTRATI ORA!
+regUserPvt.RegFb=Sign up with Facebook|Registrati con Facebook
+regUserPvt.MailErr=Insert your email|Inserisci una e-mail valida.
+regUserPvt.UserErr=Insert a username (3-20)|Inserisci un username (3-20).
+regUserPvt.PassErr=Insert a password.|Inserisci una password.
+
+regUserBiz.Title=SIGN UP AS PET SERVICE|REGISTRATI COME SERVIZIO PET
+regUserBiz.Footer=SIGN UP NOW!|REGISTRATI ORA!
+regUserBiz.AlertTitle=Sign up|Registrazione
+regUserBiz.Mail=Insert your email|Inserisci una e-mail valida.
+regUserBiz.Name=Insert your pet service name|Inserisci il nome della tua attività
+regUserBiz.User=Username (A-Z,0-9 min.3, max.20)|Nome utente (A-Z,0-9 min.3, max.20)
+regUserBiz.Pass=Password.|Password.
+regUserBiz.Addr=Insert your address.|Inserisci il tuo indirizzo.
+regUserBiz.Cap=Insert your zip code.|Inserisci il CAP.
+regUserBiz.City=Select your city.|Seleziona la tua città.
+regUserBiz.Country=Select your country.|Seleziona la nazione.
+regUserBiz.Activities=Select your services.|Seleziona i tuoi servizi.
+regUserBiz.SelActivities=Selected $$ activities|$$ attività selezionata(e).
+regUserBiz.ForeignCity=Insert your city|Inserisci la città
+
+regUserBizOpts.TitleCountries=Select your country.|Seleziona la nazione.
+regUserBizOpts.TitleRegions=Select your region.|Seleziona la regione.
+regUserBizOpts.TitleCity=Select your city.|Seleziona la tua città.
+regUserBizOpts.TitleActivities=SELECT YOUR SERVICES|SELEZIONA I TUOI SERVIZI
+regUserBizOpts.SelActivities=Selected $$ activities. Tap to confirm|($$ attività selezionata(e). Tap per confermare
+regUserBizOpts.NoActivities=Choose at least one|Selezionane almeno uno
+
+recovery.Title=Password recovery|Recupero password
+recovery.Descr=Insert your e-mail please|Inserisci la tua e-mail
+recovery.MailErr=Please insert your email address correctly.|Inserisci una e-mail valida.
+recovery.PassSent=Password sent to the specified address.|La password e' stata mandata all'e-mail indicato.
+
+termCond.Title=Terms and conditions|Termini and condizioni
+
+------------------- Da organizzare ------------
+
+FilterAg=Age|Età
+FilterBr=Breed|Razza
+FilterNo=All|Tutto
+FilterPe=Pedigree|Pedigree
+FilterPr=Price|Pezzo
+FilterSz=Size|Taglia
+
+---------------------------
+
+CaniCli=Owner|Padrone
+CaniInf=Info|Info
+CaniNom=Name|Nome
+CaniRaz=Breed|Razza
+CaniVet=Veterinary|Veterinario
+ClieAnagCog=Surname|Cognome
+ClieAnagNom=Name|Nome
+ClieAnagTel=Phone #|Telefono
+ClieBDy=Birthday|Compleanno
+clieBuss=Financial|Abbonamenti e tickets
+ClieCel=Mobile|Cellulare
+ClieCof=C.F.|C.F.
+ClieDoc=Document|Documento
+ClieEml=email|email
+ClieFis=Other info|Dati fiscali
+ClieInd=Address|Indirizzo
+clieInfo=More informations|Altre informazioni
+ClieNom=Name|Nome
+ClieNot=Note|Note
+cliePren=Reservations|Prenotazioni
+ClieTel=Phone|Telefono
+ClieVet=Veterinary|Veterinario
+contactus=Contact us|Contattaci
+
+newAlbumDes=Insert album title|Inserisci il titolo dell'album
+newAlbumTit=New album|Nuovo album
+noDogDat=Select dog breed, age and size|Seleziona razza, età e taglia del cane
+noDogNam=Insert dog name|Inserisci il nome del cane
+noSelect=Select album and dog first|Devi selezionare cane e album
+
+reservation=Reservation|Prenotazione
+selAgess=Select age|Seleziona l'età
+selBreed=Select breed|Seleziona la razza
+selSizes=Select size|Seleziona la dimensione
+Send=Send|Invia
+TaskNone=No pending tasks|Non ci sono impegni
+
+-------------------- PVT --------------------------
+
+init.Adop=ADOPTIONS|ADOZIONI
+init.Dash=DASHBOARD|BACHECA
+init.Expl=EXPLORE|ESPLORA
+init.Pets=PET SERVICES|SERVIZI PET
+init.Upld=SHARE YOUR PET BEST SHOTS!|CONDIVIDI I MIGLIORI SCATTI DEL TUO PET!
+init.Welcome=Welcome |Benvenuto
+
+adoptions.Title=ADOPTIONS|ADOZIONI
+adoptions.PublDate=Published|Pubblicato il
+adoptions.ContactUs=CONTACT US|CONTATTACI
+adoptions.EmailObj=Kanito ad response|Risposta annuncio su Kanito
+adoptions.EmailTxt=Hi, i've seen your ad, i'd like to have more info. Thank you.|Salve, ho visto l'annuncio e vorrei avere maggiori informazioni.
+adoptions.WarnHead=Be informed - beware of scams!|Informati bene - attento alle truffe!
+adoptions.WarnBody=- Before taking any decision, check the dog personally to the shelter or to the volunteer's place and all the dog's documents\n- Avoid any money request to cover transportation or papers costs, including recharges on prepaid credit/PayPal cards\n- Avoid adoptions with text written in bad English and related to dogs imported from abroad\n- Avoid adoptions with professional dog puppies photos and those related to dogs with different breeds|- Prima di prendere una decisione fai un sopralluogo di persona presso il canile/rifugio o presso il privato per controllare il cane e i suoi documenti.\n- Diffida di chi chiede soldi in anticipo o ricariche su PostePay per coprire le spese di trasporto del cane o pratiche di qualsiasi tipo.\n- Diffida di chi scrive in italiano non corretto, in un'altra lingua, o dei cani provenienti dall'estero.\n- Diffida di chi pubblica foto inverosimili di cani in posa o di chi pubblica annunci riguardanti diverse razze di cani.
+
+adoptions.FilterTitle=Filters|Filtri
+adoptions.MixBreed=Mixed breed too!|Anche meticcio!
+
+###############
+
+typelist.Title=SELECT ONE OR MORE SERVICES|SELEZIONA UNO O PIU' SERVIZI
+typelist.Search=START SEARCH|AVVIA RICERCA
+typelist.SelAll=(DE)SELECT ALL|(DE)SELEZIONA TUTTI
+
+petSrvSrcType.title=SEARCH TYPE|TIPO DI RICERCA
+petSrvSrcType.City=CITY|CITTA'
+petSrvSrcType.CityDesc=Search by city|Cerca per provincia
+petSrvSrcType.Dist=SEARCH AROUND ME|CERCA INTORNO A ME
+petSrvSrcType.DistDesc=Max 20 km.|Max 20 km.
+petSrvSrcType.Draw=SEARCH FROM ADDRESS|CERCA DA UN INDIRIZZO
+petSrvSrcType.DrawDesc=Address, Area or ZIP|Via, Quartiere o CAP
+
+petSrv.NoResult=No results!|Nessun risultato!
+petSrv.StartSrch=Show results|Mostra i risultati
+petSrv.Found=(#) pet services|(#) servizi pet
+
+petSrvCityList.Title=SELECT CITY|SELEZIONA CITTA'
+
+petSrvSrcAround.Title=AROUND ME|INTORNO A ME
+
+petSrvSrcByAddr.Title=INSERT ADDRESS|INSERISCI UN INDIRIZZO
+petSrvSrcByAddr.StartSrch=Show results|Mostra i risultati
+petSrvSrcByAddr.SelStartPos=Select location|Seleziona la posizione
+
+petSrvList.Title=PET SERVICES LIST|LISTA DEI SERVIZI PET
+petSrvList.PetSrv=PET SERVICES|SERVIZI PET
+petSrvList.FollBy=Followed by:|Seguito da:
+
+petSrvList.ActionTitle=Change your filters|Modifica i tuoi filtri
+petSrvList.ActionModCity=Change city|Cambia città
+petSrvList.ActionModFilt=Change pet service types|Cambia tipo di pet service
+
+maps.Title=PET SERVICES ON MAP|SERVIZI PET SU MAPPA
+maps.NoResult=No results!|Nessun risultato!
+maps.Found=(#) pet services found|(#) servizi pet trovati
+
+#################
+
+explList.Title=EXPLORE|ESPLORA
+explList.Dog=DOGS|CANI
+explList.Own=OWNERS|PROPRIETARI
+explList.NoBreed=Breed not specified|Razza non specificata
+explList.NumLike=# Likes|Piace a #
+explList.loginToUpload=You must login to upload your photos|Devi fare il login per caricare le tue foto
+
+explDett.UplBy=Uploaded by|Caricata da
+explDett.Album=Album|Album
+explDett.NumLike=# Likes|Piace a # persone
+explDett.Follow=Follow|Segui
+explDett.Unfoll=Unfollow|Non seguire
+explDett.Like=Like|Mi piace
+explDett.Dislike=Dislike|Non mi piace
+
+#################
+
+viewCamClick.Use=USE!|USA!
+
+viewFotoSend.Title=PICTURE UPLOAD|INVIO FOTO
+viewFotoSend.PhotoTitle=TITLE|TITOLO
+viewFotoSend.Placeholder=Set picture title (optional)|Titolo della foto (opzionale)
+viewFotoSend.DogSel=SELECT DOG|SELEZIONE CANE
+viewFotoSend.AlbumSel=SELECT ALBUM|SELEZIONE ALBUM
+viewFotoSend.SaveOnGall=SAVE ON GALLERY|SALVA NELLA GALLERIA
+viewFotoSend.Next=NEXT|CONTINUA
+
+viewFotoOpts.PhotoInfo=SELECT LOCATION AND ACTIVITY|SELEZIONA LUOGO E ATTIVITA'
+viewFotoOpts.Loc=LOCATION|LUOGO
+viewFotoOpts.Act=ACTIVITY|ATTIVITA'
+viewFotoOpts.UploadNow=UPLOAD NOW!|INVIA LA FOTO!
+viewFotoOpts.UploadDone=Upload done|Foto inviata correttamente
+
+myNewDog.Title=Add dog|Aggiungi cane
+myNewDog.Save=Save|Salva
+myNewDog.Name=Dog name|Nome del cane
+
+galleria.Title=SELECT YOUR PHOTOS|SELEZIONA LE FOTO
+galleria.BtnUploadNone=Select pic(s) to upload. Max.3|Seleziona le foto da inviare. Max.3
+galleria.BtnUploadPics=Selected $ pic(s). Click to upload|Selezionate $ foto. Click per inviare
+
+----------------- GENERICI -------------
+
+or=OR|OPPURE
+by=by|da
+at=at|a
+with=with|con
+gender=Gender|Sesso
+genderF=Female|Femmina
+genderM=Male|Maschio
+SI=Yes|Si
+NO=No|No
+OK=Ok|Ok
+cancel=Cancel|Annulla
+follow=Follow|Segui
+unfollow=Unfollow|Non segui
+warning=Warning|Attenzione
+description=Description|Descrizione
+email=EMAIL|EMAIL
+phone=PHONE|TELEFONO

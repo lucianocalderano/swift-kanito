@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oSD-k7-WLW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Biz Main Ctrl-->
+        <scene sceneID="aLE-m7-cZW">
+            <objects>
+                <viewController storyboardIdentifier="BizMainCtrl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oSD-k7-WLW" customClass="BizMainCtrl" customModule="Kanito" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gGR-NQ-2u4"/>
+                        <viewControllerLayoutGuide type="bottom" id="pNp-7V-RSK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4bV-zD-B9U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nDs-Td-4fA" userLabel="ViewMain">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFu-nA-7vL" userLabel="View status" customClass="BizMainDataSubView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="28" y="0.0" width="320" height="90"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rh5-Bn-eFC">
+                                                <rect key="frame" x="14" y="11" width="64" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#dashboard.Cust" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NnA-gp-Wi6" customClass="MyLabel">
+                                                        <rect key="frame" x="11" y="34" width="42" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="11"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="YYQ-nI-cfi" customClass="MyLabel">
+                                                        <rect key="frame" x="-1" y="14" width="66" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.077712759375572205" green="0.6195870041847229" blue="0.8152005672454834" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rha-jg-1Wt">
+                                                <rect key="frame" x="90" y="11" width="64" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#dashboard.Dogs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vNr-dK-qEa" customClass="MyLabel">
+                                                        <rect key="frame" x="11" y="34" width="42" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="11"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lGg-Qd-eSG" customClass="MyLabel">
+                                                        <rect key="frame" x="-1" y="14" width="66" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.074509803921568626" green="0.56862745098039214" blue="0.51764705882352946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YLd-Ex-bEJ">
+                                                <rect key="frame" x="167" y="11" width="64" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xjS-v8-fhZ" customClass="MyLabel">
+                                                        <rect key="frame" x="-1" y="14" width="66" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#dashboard.Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ANE-GA-5kE" customClass="MyLabel">
+                                                        <rect key="frame" x="11" y="34" width="42" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="11"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.29019607843137257" green="0.63529411764705879" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZJe-cz-7TG">
+                                                <rect key="frame" x="243" y="11" width="64" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#dashboard.Month" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="G8g-cf-CBc" customClass="MyLabel">
+                                                        <rect key="frame" x="11" y="34" width="42" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="11"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bEH-9U-Ke5" customClass="MyLabel">
+                                                        <rect key="frame" x="-1" y="14" width="66" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.062745098039215685" green="0.4823529411764706" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="1Ux-pM-Yhd"/>
+                                            <constraint firstAttribute="height" constant="90" id="2OP-6j-Hdx"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="lblNumCust" destination="YYQ-nI-cfi" id="Vf7-Hq-HDA"/>
+                                            <outlet property="lblNumDogs" destination="lGg-Qd-eSG" id="OOs-R5-XC9"/>
+                                            <outlet property="lblPayMonth" destination="bEH-9U-Ke5" id="YcZ-xY-797"/>
+                                            <outlet property="lblPayToday" destination="xjS-v8-fhZ" id="np6-hz-ZGU"/>
+                                            <outlet property="v0" destination="rh5-Bn-eFC" id="bQI-sD-KjU"/>
+                                            <outlet property="v1" destination="Rha-jg-1Wt" id="zq1-Kf-Ub3"/>
+                                            <outlet property="v2" destination="YLd-Ex-bEJ" id="kf4-gV-7uc"/>
+                                            <outlet property="v3" destination="ZJe-cz-7TG" id="T6W-UK-EjJ"/>
+                                        </connections>
+                                    </view>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="288-yx-H5z">
+                                        <rect key="frame" x="0.0" y="98" width="375" height="549"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="separatorColor" red="0.90588235289999997" green="0.92941176469999998" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <prototypes>
+                                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BizMainLessonCell" id="klG-Rv-37p" customClass="BizMainLessonCell" customModule="Kanito" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="klG-Rv-37p" id="yn6-zB-CfD">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lbl1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="3df-NN-G0Q" customClass="MyLabel">
+                                                            <rect key="frame" x="6" y="11" width="150" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="150" id="BXx-BW-FQh"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="11"/>
+                                                            <color key="textColor" red="0.29803921570000003" green="0.31372549020000001" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lbl2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="kGb-vs-otq" customClass="MyLabel">
+                                                            <rect key="frame" x="160" y="11" width="160" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="160" id="SGi-zB-9xY"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                                            <color key="textColor" red="0.077712759375572205" green="0.6195870041847229" blue="0.8152005672454834" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="kGb-vs-otq" firstAttribute="leading" secondItem="3df-NN-G0Q" secondAttribute="trailing" constant="4" id="Ov6-vh-Sq6"/>
+                                                        <constraint firstAttribute="bottom" secondItem="kGb-vs-otq" secondAttribute="bottom" constant="11" id="bzm-dc-sQu"/>
+                                                        <constraint firstItem="kGb-vs-otq" firstAttribute="top" secondItem="yn6-zB-CfD" secondAttribute="top" constant="11" id="dEL-oz-OH8"/>
+                                                        <constraint firstItem="3df-NN-G0Q" firstAttribute="top" secondItem="yn6-zB-CfD" secondAttribute="top" constant="11" id="qRR-kF-36C"/>
+                                                        <constraint firstItem="3df-NN-G0Q" firstAttribute="leading" secondItem="yn6-zB-CfD" secondAttribute="leading" constant="6" id="vdm-Wy-2GF"/>
+                                                        <constraint firstAttribute="bottom" secondItem="3df-NN-G0Q" secondAttribute="bottom" constant="11" id="yz7-EB-i76"/>
+                                                    </constraints>
+                                                </tableViewCellContentView>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <outlet property="nameLabel" destination="kGb-vs-otq" id="hDA-xw-fxj"/>
+                                                    <outlet property="timeLabel" destination="3df-NN-G0Q" id="Bk1-vh-s0f"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="oSD-k7-WLW" id="LpT-cc-TLd"/>
+                                            <outlet property="delegate" destination="oSD-k7-WLW" id="x7p-dO-BuR"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="gFu-nA-7vL" firstAttribute="centerX" secondItem="nDs-Td-4fA" secondAttribute="centerX" id="4Jh-bv-h4P"/>
+                                    <constraint firstAttribute="bottom" secondItem="288-yx-H5z" secondAttribute="bottom" id="MFU-w9-7rN"/>
+                                    <constraint firstItem="gFu-nA-7vL" firstAttribute="top" secondItem="nDs-Td-4fA" secondAttribute="top" id="Pfi-n3-x41"/>
+                                    <constraint firstAttribute="trailing" secondItem="288-yx-H5z" secondAttribute="trailing" id="Zrc-Vm-3wb"/>
+                                    <constraint firstItem="288-yx-H5z" firstAttribute="leading" secondItem="nDs-Td-4fA" secondAttribute="leading" id="sgD-Zp-ppn"/>
+                                    <constraint firstItem="288-yx-H5z" firstAttribute="top" secondItem="gFu-nA-7vL" secondAttribute="bottom" constant="8" id="zY4-Ou-3ch"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lk7-A6-mA2" userLabel="MainMenuView" customClass="BizMenuSubView" customModule="Kanito" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="80" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qIS-26-8oX" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="64" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="0ez-Hz-9JV"/>
+                                            <constraint firstAttribute="height" constant="64" id="vWX-iH-wic"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Dash"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Cruscotto"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PSN-Jy-G86" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="511" width="64" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="7bG-1N-G5X"/>
+                                            <constraint firstAttribute="height" constant="64" id="mB7-zg-zgA"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.GotoPvt"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="logoK"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bYZ-C7-ocL" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="575" width="64" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="Uxk-4r-kbN"/>
+                                            <constraint firstAttribute="height" constant="64" id="oh0-XC-mx1"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Logout"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Logout"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPs-zy-USE" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="72" width="64" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="8Ww-vR-OyL"/>
+                                            <constraint firstAttribute="width" constant="64" id="Cxb-Vw-dqu"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Cust"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Utente_bianco"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYR-M8-4Rp" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="136" width="64" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="LN8-ng-h28"/>
+                                            <constraint firstAttribute="height" constant="64" id="URg-Vw-E3F"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Dogs"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Cane_bianco"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEt-3i-bam" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="200" width="64" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="8zb-0E-8qT"/>
+                                            <constraint firstAttribute="width" constant="64" id="aBd-wQ-btI"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Less"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Calendario_bianco"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="bYZ-C7-ocL" firstAttribute="centerX" secondItem="Lk7-A6-mA2" secondAttribute="centerX" id="5QP-YC-PgV"/>
+                                    <constraint firstAttribute="width" constant="80" id="8NI-kh-xQs"/>
+                                    <constraint firstItem="eEt-3i-bam" firstAttribute="top" secondItem="tYR-M8-4Rp" secondAttribute="bottom" id="LBO-IM-hz4"/>
+                                    <constraint firstItem="tYR-M8-4Rp" firstAttribute="top" secondItem="YPs-zy-USE" secondAttribute="bottom" id="RqT-TH-iXB"/>
+                                    <constraint firstItem="qIS-26-8oX" firstAttribute="top" secondItem="Lk7-A6-mA2" secondAttribute="top" constant="8" id="WPY-Ux-VlS"/>
+                                    <constraint firstItem="eEt-3i-bam" firstAttribute="centerX" secondItem="Lk7-A6-mA2" secondAttribute="centerX" id="XWF-Tp-TxE"/>
+                                    <constraint firstItem="YPs-zy-USE" firstAttribute="centerX" secondItem="Lk7-A6-mA2" secondAttribute="centerX" id="YhF-0T-7ft"/>
+                                    <constraint firstItem="YPs-zy-USE" firstAttribute="top" secondItem="qIS-26-8oX" secondAttribute="bottom" id="ZVy-3g-xg5"/>
+                                    <constraint firstItem="tYR-M8-4Rp" firstAttribute="centerX" secondItem="Lk7-A6-mA2" secondAttribute="centerX" id="bn5-sc-Px7"/>
+                                    <constraint firstItem="qIS-26-8oX" firstAttribute="centerX" secondItem="Lk7-A6-mA2" secondAttribute="centerX" id="dwb-0Y-mUj"/>
+                                    <constraint firstItem="bYZ-C7-ocL" firstAttribute="top" secondItem="PSN-Jy-G86" secondAttribute="bottom" id="eYi-cu-GxP"/>
+                                    <constraint firstItem="PSN-Jy-G86" firstAttribute="centerX" secondItem="Lk7-A6-mA2" secondAttribute="centerX" id="ez6-0e-CRe"/>
+                                    <constraint firstAttribute="bottom" secondItem="bYZ-C7-ocL" secondAttribute="bottom" constant="8" id="hKM-MR-04S"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="custBtn" destination="YPs-zy-USE" id="4GU-cB-f35"/>
+                                    <outlet property="dashBtn" destination="qIS-26-8oX" id="e1y-JV-jWf"/>
+                                    <outlet property="dogsBtn" destination="tYR-M8-4Rp" id="Kdy-MZ-mtN"/>
+                                    <outlet property="lessBtn" destination="eEt-3i-bam" id="v0c-ec-OHs"/>
+                                    <outlet property="out_Btn" destination="bYZ-C7-ocL" id="JZP-Ap-DLz"/>
+                                    <outlet property="pvt_Btn" destination="PSN-Jy-G86" id="9rH-2P-J2l"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pNp-7V-RSK" firstAttribute="top" secondItem="Lk7-A6-mA2" secondAttribute="bottom" id="C0z-za-rkg"/>
+                            <constraint firstItem="pNp-7V-RSK" firstAttribute="top" secondItem="nDs-Td-4fA" secondAttribute="bottom" id="C8j-WT-cfc"/>
+                            <constraint firstItem="nDs-Td-4fA" firstAttribute="leading" secondItem="4bV-zD-B9U" secondAttribute="leading" id="Etl-r5-MvY"/>
+                            <constraint firstItem="Lk7-A6-mA2" firstAttribute="top" secondItem="gGR-NQ-2u4" secondAttribute="bottom" id="Jod-w9-ygd"/>
+                            <constraint firstItem="Lk7-A6-mA2" firstAttribute="leading" secondItem="4bV-zD-B9U" secondAttribute="leading" id="Ytf-LW-wMf"/>
+                            <constraint firstAttribute="trailing" secondItem="nDs-Td-4fA" secondAttribute="trailing" id="dSp-cn-lzH"/>
+                            <constraint firstItem="nDs-Td-4fA" firstAttribute="top" secondItem="gGR-NQ-2u4" secondAttribute="bottom" id="zdA-1s-qte"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hgw-X8-UNG"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="headerTitle" value="#dashboard.Title"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="optionImage" value="Menu"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="bizHomeDataView" destination="gFu-nA-7vL" id="3nx-Q1-f4W"/>
+                        <outlet property="bizMenuView" destination="Lk7-A6-mA2" id="PQe-Ga-zwS"/>
+                        <outlet property="mainView" destination="nDs-Td-4fA" id="12l-18-M5H"/>
+                        <outlet property="tableView" destination="288-yx-H5z" id="qOD-gY-0L8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZ3-1l-Tjm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="596.85157421289364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Calendario_bianco" width="512" height="512"/>
+        <image name="Cane_bianco" width="256" height="256"/>
+        <image name="Cruscotto" width="256" height="256"/>
+        <image name="Logout" width="256" height="256"/>
+        <image name="Menu" width="256" height="256"/>
+        <image name="Utente_bianco" width="256" height="256"/>
+        <image name="logoK" width="256" height="256"/>
+    </resources>
+</document>

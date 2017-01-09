@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="MainMenuView" customClass="BizMenuSubView" customModule="Kanito" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="527"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Tg-4F-Y9a" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                    <rect key="frame" x="8" y="8" width="64" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="7jT-dn-e7d"/>
+                        <constraint firstAttribute="width" constant="64" id="N0O-xk-p4D"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Dash"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Cruscotto"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRL-fl-VSl" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                    <rect key="frame" x="8" y="391" width="64" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="ZyR-UT-nFj"/>
+                        <constraint firstAttribute="height" constant="64" id="dlu-Nh-5lG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.GotoPvt"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="logoK"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0o3-I0-c1z" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                    <rect key="frame" x="8" y="455" width="64" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Xm9-m6-9z8"/>
+                        <constraint firstAttribute="width" constant="64" id="rQQ-El-w3B"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Logout"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Logout"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ol5-JY-JRF" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                    <rect key="frame" x="8" y="72" width="64" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="1sj-0C-1Yp"/>
+                        <constraint firstAttribute="width" constant="64" id="rM1-yB-8OO"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Cust"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Utente_bianco"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggX-Us-Zar" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                    <rect key="frame" x="8" y="136" width="64" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="16v-Eu-0KV"/>
+                        <constraint firstAttribute="height" constant="64" id="Z1o-mH-zwh"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Dogs"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Cane_bianco"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2b-tC-Yun" customClass="MenuButtonView" customModule="Kanito" customModuleProvider="target">
+                    <rect key="frame" x="8" y="200" width="64" height="64"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="6uQ-03-oSw"/>
+                        <constraint firstAttribute="width" constant="64" id="lnQ-RB-luQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="menuTitle" value="#menuBiz.Less"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="menuImage" value="Calendario_bianco"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ol5-JY-JRF" firstAttribute="top" secondItem="2Tg-4F-Y9a" secondAttribute="bottom" id="5DS-P7-w8S"/>
+                <constraint firstItem="G2b-tC-Yun" firstAttribute="top" secondItem="ggX-Us-Zar" secondAttribute="bottom" id="90q-5k-kee"/>
+                <constraint firstItem="2Tg-4F-Y9a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="9sh-7S-AcM"/>
+                <constraint firstItem="lRL-fl-VSl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GlB-nt-VIF"/>
+                <constraint firstAttribute="bottom" secondItem="0o3-I0-c1z" secondAttribute="bottom" constant="8" id="KoU-Rn-aTS"/>
+                <constraint firstItem="ggX-Us-Zar" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Qi3-1x-Ljk"/>
+                <constraint firstItem="2Tg-4F-Y9a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RAb-cF-tah"/>
+                <constraint firstItem="ggX-Us-Zar" firstAttribute="top" secondItem="ol5-JY-JRF" secondAttribute="bottom" id="UIc-k2-0QL"/>
+                <constraint firstItem="0o3-I0-c1z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="c1y-cA-UsR"/>
+                <constraint firstItem="G2b-tC-Yun" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ecf-CQ-HAl"/>
+                <constraint firstItem="0o3-I0-c1z" firstAttribute="top" secondItem="lRL-fl-VSl" secondAttribute="bottom" id="hjj-ZF-YtX"/>
+                <constraint firstItem="ol5-JY-JRF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ibu-gV-9oH"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="custBtn" destination="ol5-JY-JRF" id="LDE-Ng-1B1"/>
+                <outlet property="dashBtn" destination="2Tg-4F-Y9a" id="Hhj-Rs-4a2"/>
+                <outlet property="dogsBtn" destination="ggX-Us-Zar" id="qmf-Zi-kUK"/>
+                <outlet property="lessBtn" destination="G2b-tC-Yun" id="rhF-ug-veo"/>
+                <outlet property="out_Btn" destination="0o3-I0-c1z" id="ZU6-fJ-7XZ"/>
+                <outlet property="pvt_Btn" destination="lRL-fl-VSl" id="hKI-dH-wvd"/>
+            </connections>
+            <point key="canvasLocation" x="291" y="242.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Calendario_bianco" width="512" height="512"/>
+        <image name="Cane_bianco" width="256" height="256"/>
+        <image name="Cruscotto" width="256" height="256"/>
+        <image name="Logout" width="256" height="256"/>
+        <image name="Utente_bianco" width="256" height="256"/>
+        <image name="logoK" width="256" height="256"/>
+    </resources>
+</document>

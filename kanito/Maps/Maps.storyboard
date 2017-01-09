@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RCt-O0-3r7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Maps-->
+        <scene sceneID="Tvb-rq-bVh">
+            <objects>
+                <viewController storyboardIdentifier="ViewMaps" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RCt-O0-3r7" customClass="ViewMaps" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0qN-Hc-ooC"/>
+                        <viewControllerLayoutGuide type="bottom" id="cLa-Yd-aVX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TCz-H6-crC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info.1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qi-2m-Fnf" customClass="MyLabel">
+                                <rect key="frame" x="8" y="559" width="584" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="agI-1D-lMM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKe-PK-A1z">
+                                <rect key="frame" x="568" y="20" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="FdM-aI-fF1"/>
+                                    <constraint firstAttribute="width" constant="24" id="s01-iC-Dvb"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Menu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnList:" destination="RCt-O0-3r7" eventType="touchUpInside" id="IjZ-g5-gE5"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="T8J-pO-yoE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="560"/>
+                                <connections>
+                                    <outlet property="delegate" destination="RCt-O0-3r7" id="vwT-7K-1Zv"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="T8J-pO-yoE" secondAttribute="trailing" id="1nt-82-vxp"/>
+                            <constraint firstItem="cLa-Yd-aVX" firstAttribute="top" secondItem="T8J-pO-yoE" secondAttribute="bottom" constant="40" id="6co-2c-fhg"/>
+                            <constraint firstItem="cLa-Yd-aVX" firstAttribute="top" secondItem="5qi-2m-Fnf" secondAttribute="bottom" constant="-1" id="Bkv-yp-wac"/>
+                            <constraint firstAttribute="trailing" secondItem="5qi-2m-Fnf" secondAttribute="trailing" constant="8" id="D8O-c5-zQ0"/>
+                            <constraint firstItem="T8J-pO-yoE" firstAttribute="leading" secondItem="TCz-H6-crC" secondAttribute="leading" id="Frp-3L-bXL"/>
+                            <constraint firstItem="T8J-pO-yoE" firstAttribute="top" secondItem="TCz-H6-crC" secondAttribute="topMargin" id="Wux-jI-aea"/>
+                            <constraint firstItem="iKe-PK-A1z" firstAttribute="top" secondItem="0qN-Hc-ooC" secondAttribute="bottom" id="XY9-Tn-WuW"/>
+                            <constraint firstAttribute="trailing" secondItem="iKe-PK-A1z" secondAttribute="trailing" constant="8" id="cdS-1z-PO5"/>
+                            <constraint firstItem="5qi-2m-Fnf" firstAttribute="leading" secondItem="TCz-H6-crC" secondAttribute="leading" constant="8" id="ybt-vN-XWj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblInfo" destination="5qi-2m-Fnf" id="eDw-2n-FFK"/>
+                        <outlet property="myMapView" destination="T8J-pO-yoE" id="cP7-j9-3Hi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OpN-xY-5ru" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu" width="256" height="256"/>
+    </resources>
+</document>

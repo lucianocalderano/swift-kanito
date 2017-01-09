@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Define.h"
+    #import "Kanito-Swift.h"
+
+    #import "ClsUtil.h"
+    #import "ClsUser.h"
+    #import "MBProgressHUD.h"
+    #import "NSDictionary+Utility.h"
+
+    #import "MyFont.h"
+    #import "MyLabel.h"
+    #import "MyColor.h"
+    #import "MyHttp.h"
+
+    #import "ClsLog.h"
+#endif

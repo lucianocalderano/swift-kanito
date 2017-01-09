@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuButton">
+            <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXP-R6-rfU" customClass="MyLabel">
+                    <rect key="frame" x="0.0" y="42" width="64" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="LEf-HF-x6q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0039215686269999999" green="0.31372549020000001" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f1D-WQ-fr2">
+                    <rect key="frame" x="14" y="3" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="Rdl-ZR-pQw"/>
+                        <constraint firstAttribute="width" constant="36" id="wSH-nt-G9d"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZK-W7-ISc">
+                    <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                    <connections>
+                        <action selector="tapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="iGc-sz-OT8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="wXP-R6-rfU" secondAttribute="trailing" id="285-qD-UIx"/>
+                <constraint firstItem="f1D-WQ-fr2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8hd-Hd-pWn"/>
+                <constraint firstItem="RZK-W7-ISc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EPo-Vr-Gub"/>
+                <constraint firstItem="wXP-R6-rfU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="L7V-0I-tPQ"/>
+                <constraint firstAttribute="bottom" secondItem="wXP-R6-rfU" secondAttribute="bottom" constant="4" id="UaH-C3-7Xm"/>
+                <constraint firstItem="RZK-W7-ISc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fiU-rz-iwm"/>
+                <constraint firstItem="f1D-WQ-fr2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="lPf-TS-TTH"/>
+                <constraint firstAttribute="bottom" secondItem="RZK-W7-ISc" secondAttribute="bottom" id="lag-hx-WBd"/>
+                <constraint firstAttribute="trailing" secondItem="RZK-W7-ISc" secondAttribute="trailing" id="oFi-i7-2Bt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="image" destination="f1D-WQ-fr2" id="TWQ-H1-LxG"/>
+                <outlet property="label" destination="wXP-R6-rfU" id="gea-r8-cvR"/>
+            </connections>
+            <point key="canvasLocation" x="328" y="279.5"/>
+        </view>
+    </objects>
+</document>

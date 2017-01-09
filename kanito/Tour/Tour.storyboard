@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fIH-Mz-u4L">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Tour-->
+        <scene sceneID="zk4-mO-PWM">
+            <objects>
+                <viewController storyboardIdentifier="ViewTour" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fIH-Mz-u4L" customClass="ViewTour" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mAa-uf-H5x"/>
+                        <viewControllerLayoutGuide type="bottom" id="cf9-or-QVa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jAd-Ed-Z22">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="93Y-Yt-vWS">
+                                <rect key="frame" x="0.0" y="563" width="600" height="37"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="q66-Of-uE0"/>
+                                </constraints>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm6-Mu-XbE">
+                                <rect key="frame" x="6" y="570" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="e2g-DJ-jpm"/>
+                                    <constraint firstAttribute="width" constant="24" id="xNw-0D-Eu3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" backgroundImage="Back">
+                                    <color key="titleColor" white="0.8971060985" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pagePrev:" destination="fIH-Mz-u4L" eventType="touchUpInside" id="sbY-kp-beb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3Y-ls-lUi">
+                                <rect key="frame" x="570" y="570" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="3Uz-3s-SSi"/>
+                                    <constraint firstAttribute="width" constant="24" id="c4k-V9-30V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" backgroundImage="Next">
+                                    <color key="titleColor" white="0.8971060985" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pageNext:" destination="fIH-Mz-u4L" eventType="touchUpInside" id="vh1-jC-epc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headLogin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5tE-jL-pPJ" userLabel="Image View Back">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="369"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tour-1" translatesAutoresizingMaskIntoConstraints="NO" id="ncb-Wz-1lA">
+                                <rect key="frame" x="0.0" y="25" width="600" height="344"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPH-w3-pKv">
+                                <rect key="frame" x="0.0" y="369" width="600" height="194"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="9l4-1a-nrO"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezJ-D4-4nu">
+                                <rect key="frame" x="459" y="570" width="135" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="12T-06-cUv"/>
+                                    <constraint firstAttribute="height" constant="24" id="gzT-Jk-063"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" title="GO TO THE APP!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSkip" destination="fIH-Mz-u4L" eventType="touchUpInside" id="4zR-MK-qEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dZ-D0-YZb">
+                                <rect key="frame" x="10" y="567" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Rbc-By-smk"/>
+                                    <constraint firstAttribute="width" constant="46" id="agu-gN-ebh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSkip" destination="fIH-Mz-u4L" eventType="touchUpInside" id="41X-sH-2Ko"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cf9-or-QVa" firstAttribute="top" secondItem="fm6-Mu-XbE" secondAttribute="bottom" constant="6" id="1lt-My-AmV"/>
+                            <constraint firstItem="cf9-or-QVa" firstAttribute="top" secondItem="93Y-Yt-vWS" secondAttribute="bottom" id="2Hv-o2-F3M"/>
+                            <constraint firstItem="cf9-or-QVa" firstAttribute="top" secondItem="5dZ-D0-YZb" secondAttribute="bottom" constant="3" id="7wi-g1-BBE"/>
+                            <constraint firstItem="cf9-or-QVa" firstAttribute="top" secondItem="O3Y-ls-lUi" secondAttribute="bottom" constant="6" id="9KM-i7-AbG"/>
+                            <constraint firstItem="93Y-Yt-vWS" firstAttribute="leading" secondItem="jAd-Ed-Z22" secondAttribute="leading" id="AKp-fp-Nsd"/>
+                            <constraint firstAttribute="trailing" secondItem="93Y-Yt-vWS" secondAttribute="trailing" id="Bqg-mh-1e3"/>
+                            <constraint firstAttribute="trailing" secondItem="5tE-jL-pPJ" secondAttribute="trailing" id="ESg-F4-Utc"/>
+                            <constraint firstAttribute="trailing" secondItem="ezJ-D4-4nu" secondAttribute="trailing" constant="6" id="H4W-nX-Yv6"/>
+                            <constraint firstItem="FPH-w3-pKv" firstAttribute="top" secondItem="5tE-jL-pPJ" secondAttribute="bottom" id="Pnd-Df-vXf"/>
+                            <constraint firstItem="93Y-Yt-vWS" firstAttribute="top" secondItem="FPH-w3-pKv" secondAttribute="bottom" id="Ssf-uB-dZo"/>
+                            <constraint firstAttribute="trailing" secondItem="FPH-w3-pKv" secondAttribute="trailing" id="ZTm-Yi-BEG"/>
+                            <constraint firstItem="5tE-jL-pPJ" firstAttribute="top" secondItem="jAd-Ed-Z22" secondAttribute="top" id="cgK-DZ-Kkw"/>
+                            <constraint firstAttribute="trailing" secondItem="ncb-Wz-1lA" secondAttribute="trailing" id="ejx-qN-41d"/>
+                            <constraint firstItem="ncb-Wz-1lA" firstAttribute="top" secondItem="jAd-Ed-Z22" secondAttribute="top" constant="25" id="ev6-04-icn"/>
+                            <constraint firstItem="5dZ-D0-YZb" firstAttribute="leading" secondItem="jAd-Ed-Z22" secondAttribute="leading" constant="10" id="jjf-sB-ezD"/>
+                            <constraint firstItem="5tE-jL-pPJ" firstAttribute="leading" secondItem="jAd-Ed-Z22" secondAttribute="leading" id="lQX-sj-sNQ"/>
+                            <constraint firstItem="cf9-or-QVa" firstAttribute="top" secondItem="ezJ-D4-4nu" secondAttribute="bottom" constant="6" id="qvg-h2-fZ9"/>
+                            <constraint firstAttribute="trailing" secondItem="O3Y-ls-lUi" secondAttribute="trailing" constant="6" id="rcQ-mb-NZO"/>
+                            <constraint firstItem="FPH-w3-pKv" firstAttribute="leading" secondItem="jAd-Ed-Z22" secondAttribute="leading" id="ssV-VM-92c"/>
+                            <constraint firstItem="FPH-w3-pKv" firstAttribute="top" secondItem="ncb-Wz-1lA" secondAttribute="bottom" id="szD-eH-MAt"/>
+                            <constraint firstItem="fm6-Mu-XbE" firstAttribute="leading" secondItem="jAd-Ed-Z22" secondAttribute="leading" constant="6" id="uPu-O8-eTE"/>
+                            <constraint firstItem="ncb-Wz-1lA" firstAttribute="leading" secondItem="jAd-Ed-Z22" secondAttribute="leading" id="v7H-gd-sGr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnGotoApp" destination="ezJ-D4-4nu" id="qe1-tp-jZM"/>
+                        <outlet property="btnNext" destination="O3Y-ls-lUi" id="ZrM-RV-E9M"/>
+                        <outlet property="btnPrev" destination="fm6-Mu-XbE" id="Kmb-0x-bYu"/>
+                        <outlet property="btnSkip" destination="5dZ-D0-YZb" id="dbf-je-YZP"/>
+                        <outlet property="imvPic" destination="ncb-Wz-1lA" id="Bcr-Dt-Lk2"/>
+                        <outlet property="pageCtrl" destination="93Y-Yt-vWS" id="oRb-0X-1of"/>
+                        <outlet property="viewZone" destination="FPH-w3-pKv" id="J7D-uf-v4Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZC-a8-YuX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="376" y="366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Back" width="256" height="256"/>
+        <image name="Next" width="256" height="256"/>
+        <image name="headLogin.jpg" width="744" height="363"/>
+        <image name="tour-1" width="414" height="604"/>
+    </resources>
+</document>

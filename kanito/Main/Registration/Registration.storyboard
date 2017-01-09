@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hMZ-gV-qzH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reg Term Cond Ctrl-->
+        <scene sceneID="OKa-9S-ruJ">
+            <objects>
+                <viewController id="SIK-ra-nKJ" customClass="RegTermCondCtrl" customModule="Kanito" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HlO-jR-oha"/>
+                        <viewControllerLayoutGuide type="bottom" id="znx-b0-EN5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RaL-Sw-ZRt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoKanito" translatesAutoresizingMaskIntoConstraints="NO" id="ABr-aa-k9I">
+                                <rect key="frame" x="94.5" y="609" width="186" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2WI-Df-S7H"/>
+                                    <constraint firstAttribute="width" constant="186" id="zjs-1f-28x"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGZ-5B-JFG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">CONDIZIONI GENERALI D’USO  E DI VENDITA DI KANITO
+
+
+ART. 1 - CONTRATTO TRA L’UTENTE E KANITO
+
+KANITO (“Il Servizio”) è un servizio dedicato al mondo della cinofilia accessibile via internet, composto da una community (“Community”) e da un software gestionale (“Gestionale” o "Software"), e fornito da  ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L., con sede in Roma, V.le Cortina d’Ampezzo 47, P.IVA 09356111006.
+
+La Community è uno spazio online dove proprietari di cani e attività cinofile possono creare un proprio profilo, un profilo per i propri cani e condividere i relativi contenuti con altri amanti dei cani.
+
+Il Gestionale è un software online che permette ad attività cinofile di organizzare la gestione quotidiana della propria attività e ricevere prenotazioni da parte dei propri clienti.
+
+Il Servizio ti è offerto sia come utente registrato che come visitatore, a fronte dell’accettazione senza alcuna modifica dei termini, condizioni e avvisi contenuti nel presente accordo.
+
+Alcune funzionalità del Servizio sono accessibili gratuitamente, altre sono a pagamento a fronte di un abbonamento periodico. Per maggiori informazioni sui costi, fai riferimento all’articolo 5 del presente contratto.
+
+Se non condividi queste Condizioni d’Uso  e di Vendita, sia ora che in futuro, ti preghiamo di non utilizzare né accedere al Servizio. È tuo compito controllare periodicamente il Servizio per verificare la presenza di possibili aggiornamenti alle presenti Condizioni d’Uso e di Vendita e di prenderne nota. Puoi verificare in fondo a questo documento la “DATA DI ULTIMA REVISIONE” per sapere a quando risale l’ultimo aggiornamento.
+
+Per ricevere una copia del presente Contratto, scrivici un’email a info@kanito.it con oggetto “Richiesta invio Condizioni d’Uso e di Vendita”.
+
+
+ART. 2 - CAMBIAMENTI ALLE CONDIZIONI D’USO E DI VENDITA, AVVISI
+
+Ci riserviamo il diritto di modificare o terminare tutti i servizi relativi a KANITO per qualsiasi ragione, con preavviso ragionevole, senza doverne conto a persona o società alcuna, alcun utente o terze parti. Ci riserviamo inoltre il diritto di modificare queste Condizioni d’Uso  e di Vendita ogni qual volta lo riteniamo necessario e senza preavviso.
+Se usufruisci dei nostri servizi a pagamento, hai diritto a 10 (dieci) giorni di preavviso oltre al rimborso dei giorni del tuo abbonamento non usufruiti.
+Sei responsabile di leggere queste Condizioni d’Uso e di Vendita per essere al corrente con gli aggiornamenti. Se non condividi questi aggiornamenti e cambiamenti nelle Condizioni d’Uso e di Vendita, puoi cancellare la tua iscrizione al Servizio.
+
+KANITO potrà fornirti avvisi riguardanti i servizi KANITO o queste Condizioni d’Uso e di Vendita per posta ordinaria, email o tramite pubblicazione sul suo sito Web.
+
+
+CONDIZIONI GENERALI D'USO
+
+
+ART. 3 - COLLEGAMENTI A SITI DI TERZE PARTI
+
+KANITO potrebbe contenere collegamenti ad altri siti web (“Siti Collegati”). I Siti Collegati non sono in alcun modo sotto il controllo di KANITO e KANITO non è responsabile per i contenuti d’alcun Servizio Collegato, inclusi eventuali collegamenti in esso contenuto, o d’alcuna modifica o aggiornamento a questi.
+KANITO ti fornisce questi collegamenti esclusivamente per comodità, e la presenza di questi collegamenti non implica alcun tipo di raccomandazione da parte di KANITO per il Servizio collegato in oggetto o alcun tipo di associazione con i suoi operatori.
+
+
+ART. 4 - REQUISITI E ISCRIZIONE
+
+Devi aver compiuto i 18 anni di età per utilizzare KANITO. Registrandoti, assicuri e garantisci di aver compiuto i 18 anni d’età e che hai piena capacità di comprendere, accettare e condividere queste Condizioni d’Uso e di Vendita. Al momento della registrazione, affinché tu possa diventare un utente KANITO, dovrai fornire informazioni veritiere, accurate e complete.
+
+In fase di registrazione, ti sarà richiesto di scegliere un nome utente, una password, e sarai responsabile per tutte le attività svolte con il suddetto nome utente e per custodire la tua password in un luogo sicuro. È nostra facoltà rifiutare un determinato nome utente da te scelto che possa impersonare qualcun altro, che sia protetto da copyright o marchio registrato, che sia volgare, offensivo ovvero inappropriato, o che possa presumere un utilizzo improrio del Servizio, il tutto determinato a nostra sola discrezione.
+
+
+ART. 5 - COMMUNITY: TIPI DI ACCOUNT, PROFILI DI CANI
+
+Puoi registrarti come utente privato o come attività cinofila.
+
+Scegli Utente Privato se sei proprietario di uno o più cani e abbia voglia di condividere foto, video e altre informazioni.  Questo tipo di account è offerto esclusivamente per uso privato e a scopi non-commerciali. Un utente privato non potrà aprire più di un profilo. Una doppia registrazione al Servizio comporta la cancellazione di entrambi gli account e al blocco permanente dei tuoi accessi.
+
+Scegli Attività Cinofila se gestisci qualsiasi tipo attività cinofila e desideri avere la propria vetrina virtuale su KANITO per promuovere i propri prodotti e servizi. A titolo esemplificativo, alcune di queste attività sono: addestratori, allevamenti, associazioni, canili e rifugi, dogsitter, negozi di articoli per cani, produttori o distributori di alimenti per cani, riviste di settore, veterinari. Ti preghiamo di selezionare solo le tipologie di servizi offerti dalla tua attività. Altre eventualmente indicate sul tuo profilo e non offerte dalla tua attività saranno rimosse senza preavviso. Non è consentita l’iscrizione con più nome utente per la stessa attività. Una doppia registrazione al Servizio comporta alla cancellazione d’entrambi gli account e al blocco permanente dei tuoi accessi.
+
+Sia gli utenti di tipo privato che le attività cinofile possono aprire diversi profili per i cani di cui risultino proprietari o per i quali ne abbiano diritto di mostrare le relative informazioni. Aprendo un profilo di un cane tu dichiari di esserne proprietario o di possederne i diritti d’utilizzo dei contenuti caricati sul Servizio e che questi ultimi non violino alcun copyright.
+
+Ogni cane dovrà avere il suo profilo. Ti preghiamo quindi di non caricare materiale relativo a più cani sullo stesso profilo. Profili di cani contenenti foto di più cani saranno rimossi senza preavviso.
+
+KANITO vieta espressamente la creazione di profili di cani in adozione. Per la adozioni è obbligatorio usare la funzione Annunci. Profili di cani che risultino in adozione saranno immediatamente rimossi senza preavviso.
+
+
+ART. 6 - COMMUNITY: GIUSTA CONDOTTA E CONTENUTI
+
+Non puoi utilizzare i servizi offerti da KANITO per scopi illegali o non autorizzati. Se sei un utente internazionale dichiari di accettare ogni regola locale relativa alla giusta condotta da seguire e ai contenuti dichiarati appropriati, incluse le leggi che regolamentano l’esportazione di dati dal tuo paese di appartenenza. Sei il solo responsabile per la condotta e per qualsiasi dato, testo, informazione, foto, collegamento e ogni altro tipo di contenuto (“Contenuti”) che caricherai, pubblicherai e mostrerai sul Servizio.
+
+Noi ci riserviamo il diritto, ma non l’obbligo, di rimuovere i Contenuti che a nostro insindacabile giudizio sono fuori legge, fraudolenti, minacciosi, vili, diffamatori, osceni o comunque non tollerabili, che violi la proprietà intellettuale di qualsiasi parte o altro diritto proprietario o queste Condizioni di Servizio.
+
+Accetti di pagare qualsiasi costo relativo a copyright, royalty, tassa o altra somma di denaro dovuta a terze parti e relativa alla pubblicazione di Contenuti sul Servizio.
+Ogni informazione considerata da qualsiasi utente come impropria o oscena verrà rimossa o modificata senza alcun preavviso.
+
+Altri esempi di usi illegali o impropri sono, ma non sono limitati a:
+
+    Modificare, adattare, tradurre o effettuare “reverse engineering” di qualsiasi parte del Servizio;
+    Fare uso di robot, spider, applicazioni di ricerca e acquisizione, o qualsiasi altro mezzo per ottenere o indicizzare qualsiasi parte del Servizio;
+    Memorizzare qualsiasi tipo di informazione relativa agli Utenti (inclusi nome utente, password e/o indirizzi email) per usi non autorizzati;
+    Editare o suddividere qualsiasi sezione di qualsiasi pagina web o delle immagini presenti sul Servizio che fanno parte integrante di KANITO;
+    Creare account con mezzi automatici o attraverso pretese false o fraudolente;
+    Creare o trasmettere qualsiasi tipo di comunicazione digitale non richiesta come “spam”, “chain letter” ad altri Utenti, o che interferiscano con l’uso dilettevole del Servizio da parte di altri utenti;
+    Inviare Contenuti a terze parti senza il consenso per iscritto di queste;
+    Indirizzare qualsiasi utente a qualsiasi Contenuto di terze parti (anche attraverso collegamenti) senza l’esplicito consenso scritto dell’utente;
+    Inviare Contenuti che si presentino falsamente come originati e/o sponsorizzati da KANITO;
+    Inviare Contenuti che violino, si approprino senza diritto, o violino proprietà intellettuale, pubblicità, privacy o qualsiasi altro diritto di proprietà di altre parti;
+    Trasmettere virus, worm, difetti, cavalli di Troia o qualsiasi altra forma di natura distruttiva;
+    Inviare Contenuti illegali ovvero promuovere o incoraggiare qualsiasi attività illegale;
+    Inviare informazioni false o ingannevoli;
+    Inviare prodotti commerciai e/o offerte senza il consenso scritto di KANITO;
+    Creare qualsiasi interferenza, interruzione o sovraccarico del Servizio e dei relativi server e reti;
+    Vendere o trasferire il tuo account ad altre persone;
+    Fare uso del Servizio in qualsiasi modo non permesso da qualsiasi legge applicabile al caso;
+    Richiedere denaro per cani in adozione da te pubblicati nella sezione Annunci;
+    Richiedere denaro per qualsiasi tua attività pubblicata su KANITO;
+
+
+Anche se KANITO proibisce questo tipo di comportamento e contenuti, tu dichiari di comprendere ed accettare che potresti comunque essere sottoposto a questi Contenuti e che fai uso dei servizi KANITO a tuo rischio e pericolo. In caso sapessi di suddetti contenuti e comportamenti, ti preghiamo di comunicarcelo il prima possibile inviando un’email all’indirizzo info@kanito.it.
+
+KANITO non ha alcun obbligo di monitorare le comunicazioni tra i suoi utenti attraverso la sua piattaforma. Ad ogni modo, KANITO si riserva il diritto di controllare ogni tipo di contenuto caricato sul Servizio e rimuoverlo a sua insindacabile discrezione. KANITO si riserva il diritto di terminare il tuo accesso a qualsiasi funzione e/o modulo del Servizio in ogni momento e senza preavviso alcuno. Nessun Contenuto fornito dall’Utente è verificato né controllato prima della sua pubblicazione, né questi contenuti rispecchiano le opinioni di KANITO.
+
+Ti invitiamo ad usare sempre e comunque la giusta precauzione nell’inviare informazioni di identificazione personale relative a te o tuoi familiari in ogni sezione del Servizio. KANITO non controlla, appoggia i contenuti, messaggi o informazioni presenti in qualsiasi mezzo di comunicazione e per questo KANITO declina ogni responsabilità relativa all’utilizzo del Servizio e a qualsiasi azione conseguente alla tua partecipazione in qualsiasi sezione pubblica del Servizio.
+
+In caso decidessi di incontrare personalmente altre persone conosciute attraverso il Servizio, sia direttamente che indirettamente, dichiari di agire a tuo rischio e pericolo. KANITO declina qualsiasi responsabilità relativa a comportamenti e azioni impropri, pericolosi e illegali che potrebbero risultare dalla suddetta decisione e che potrebbe arrecare danni a te, ai tuoi compagni o a qualsiasi altro partecipante a questo incontro.
+
+Sei il solo responsabile di effettuare copie di sicurezza (“backup”) e agisci esclusivamente a tuo costo per sostituire qualsiasi Contenuto Utente che avessi inviato o memorizzato sul Servizio o fornito alla Società.
+
+
+ART. 7 - COMMUNITY: UTENTI PRIVATI, OPERATORI CINOFILI. USO NON COMMERCIALE
+
+Agli Utenti Privati non è permesso fare uso del proprio account a scopo commerciale. Questo comportamento scorretto rappresenta inadempienza contrattuale da parte dell’utente e comporta la cancellazione immediata di questi contenuti commerciali e/o la cancellazione del proprio account senza preavviso e senza che nulla sia dovuto da  KANITO all’utente per qualsiasi conseguenza sia diretta che indiretta dalla sopracitata cancellazione.
+
+Alle Attività Cinofile è permesso promuovere i propri prodotti e servizi esclusivamente tramite gli strumenti offerti da KANITO. Non è permesso contattare gli Utenti Privati offrendo loro proposte commerciali di alcun genere ne pubblicare un gran numero di informazioni a carattere commerciale. Questo comportamento scorretto rappresenta inadempienza contrattuale da parte dell’utente e comporta la cancellazione di questi contenuti commerciali e l’immediata cancellazione del proprio account e di tutti i contenuti ad esso collegati senza preavviso e senza che nulla sia dovuto da  KANITO all’utente.
+
+Per proteggere i propri Utenti da messaggi di carattere commerciale, catene promozionali o qualsiasi altro mezzo di promozione di offerte di qualsiasi tipo di prodotto o servizio, KANITO si riserva il diritto di limitare il numero di messaggi che ogni utente può inviare nell’arco di 24 ore. Questo limite può essere cambiato da KANITO senza preavviso. In caso che un utente invii messaggi di carattere commerciale ad altri utenti, sia singolarmente o simultaneamente attraverso invii di massa, questo comportamento rappresenta inadempienza contrattuale, oltre ad arrecare un danno materiale a KANITO, difficile da stimare. Questo danno può quantificarsi in maniera ragionevole nell’ammontare di 50 EURO per ogni messaggio inviato attraverso qualsiasi altro mezzo. KANITO ha il diritto ad essere rimborsato per qualsiasi danno o perdita subita che ecceda il limite di 50 EURO.
+ 
+
+ART. 8 - COMMUNITY: CONTROVERSIE TRA UTENTI
+
+Sei il solo responsabile per le tue azioni e interazioni con altri membri. KANITO ha il diritto ma non l’obbligo di monitorare qualsiasi discussione che possa nascere tra gli utenti.
+
+
+ART. 9 - SOFTWARE: CARATTERISTICHE
+
+KANITO offre il software gestionale accessibile via internet per la tua attività cinofila. Il software è raggiungibile dal menu Software Gestionale e viene fornito in abbonamento secondo la formula “quello che vedi è ciò che ottieni". Nuove funzioni rilasciate per il tuo tipo di abbonamento saranno incluse automaticamente e senza costi aggiuntivi.
+
+Il Software è disponibile 24 ore al giorno, 7 giorni su 7. In caso non fosse accessibile ti preghiamo di scriverci immediatamente a help@kanito.it.
+In caso di interruzione del servizio per più di cinque ore, KANITO ti riconoscerà a titolo gratuito una settimana aggiuntiva dei servizi già sottoscritti.
+
+L’accesso al tuo account sul software gestionale online ti viene garantito per tutta la durata dell’abbonamento. In caso di mancato rinnovo, il tuo account verrà sospeso per 10 (dieci) giorni, decorsi i quali sarà cancellato insieme a tutti i dati ad esso associati. Non è possibile richiedere in alcun momento il download o l’invio dei dati relativi al tuo account.
+
+
+ART. 10 - SOFTWARE: COMPATIBILITA', BACKUP, ERRORI E SERVIZIO CLIENTI GRATUITO
+
+Il Software è accessibile da tutti i dispositivi che abbiano un browser internet installato ed una connessione internet attiva. Dipendentemente dal tipo di sistema operativo, tipo e versione del browser, il Software potrebbe però non funzionare corretamente. KANITO non garantisce inoltre il corretto funzionamento del Software su dispositivi mobili.
+
+KANITO effettua giornalmente copie di backup del Software su macchine indipendenti le une dalle altre per aumentare il livello di sicurezza.
+
+La tua esperienza con il nostro software gestionale è per noi una priorità. Il Servizio e ogni suo aggiornamento ti vengono da noi offerti dopo un'adeguata verifica tecnica. Può però capitare che a causa di errori di codice alcune informazioni generate dal Software non siano corrette. Per questo ti offriamo un servizio clienti via email totalmente gratuito. Scrivici a help@kanito.it per qualsiasi informazione in merito al funzionamento del gestionale e saremo felici di risponderti entro circa 24 ore.
+
+
+CONDIZIONI GENERALI DI VENDITA
+
+
+ART. 11 - COSTI E PREZZI
+
+La Community è un servizio offerto gratuitamente. KANITO potrà richiedere un pagamento per qualsiasi parte del Servizio e apportare di volta in vola cambiamenti alle tariffe a suo insindacabile giudizio. Sarai comunque libero di terminare l’utilizzo di KANITO immediatamente e senza alcun costo né impegno.
+In caso KANITO decidesse di terminare la tua iscrizione a causa di un tuo inadempimento delle presenti clausole contrattuali, non avrai diritto ad alcun rimborso di alcuna parte dei costi o dei pagamenti (in caso ci siano stati).
+
+Il Software è un servizio a pagamento offerto secondo le modalità pubblicate nella pagina http://www.kanito.it/pagine/31-Gestionale-Cinofilo. Per valutare l'abbonamento al Gestionale, KANITO ti offre  un periodo di prova di 30 (trenta) giorni senza alcun impegno all’acquisto da parte tua. Al termine di questo periodo di prova potrai valutarne l’acquisto. Passati 10 (dieci) giorni dalla scadenza del suddetto periodo di prova e in assenza di una manifestazione di interesse al rinnovo del Gestionale da parte tua, KANITO si riserva il diritto di cancellare il tuo account e tutti i suoi dati in modo irreversibile senza doverti nulla.
+Potrai comunque decidere di riacquistare il Gestionale in un secondo momento ma senza poter accedere ai contenuti precedentemente caricati.
+
+Tutti i prezzi si intendono esclusi di IVA.
+
+
+ART. 12 - DIRITTO DI RECESSO
+
+Il Cliente persona fisica che acquista il Servizio, dichiarando l’estraneità dell’acquisto/sottoscrizione alla propria attività professionale e si identifichi pertanto quale consumatore al momento della registrazione, avrà facoltà di recedere dall’acquisto del Servizio senza doverne specificare il motivo fino al termine di 14 (quattordici) giorni di calendario dalla data di avvenuta conferma dell’acquisto, che sarà inviata successivamente al pagamento del prezzo.
+
+Il recesso dovrà essere esercitato con comunicazione scritta tramite PEC all'indirizzo ecoalannosrl@pec.it oppure tramite raccomandata a.r. a: ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L., V.le Cortina d’Ampezzo 47, 00135 Roma.
+
+A seguito del recesso da parte del Cliente esercitato in conformità a quanto sopra ed entro 30 giorni dalla data del recesso, ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L. provvederà a riaccreditare al Cliente gli importi da questi eventualmente pagati.
+
+Il Cliente prende atto che il diritto di recesso non può essere esercitato nel caso in cui il Cliente non sia un Consumatore. Nelle ipotesi in cui il diritto di recesso è escluso ai sensi della normativa applicabile ai contratti a distanza, il Cliente non potrà esercitare i diritti di cui al presente articolo.
+
+
+CONDIZIONI RELATIVE SIA ALL'USO CHE ALLA VENDITA
+
+
+ART. 13 - DIRITTI PROPRIETARI, COPYRIGHT
+
+KANITO non reclama alcun diritto di proprietà di qualsiasi Contenuto che tu invii, pubblichi o mostri sul Servizio. Dopo aver inviato, pubblicato o mostrato questi Contenuti, tu continui a detenerne la piena proprietà e continui ad avere tutti i diritti per l’utilizzo che ritieni più opportuno. Inviando, pubblicando o mostrando qualsiasi Contenuto sul Servizio KANITO, ci garantisci una licenza mondiale, non esclusiva, libera da diritti, e il diritto a farne uso, modificare, mostrare in pubblico, riprodurre, dare in sub-licenza e distribuire questi i Contenuti per qualsiasi scopo, commerciale, pubblicitario, o altro, su o in relazione al Servizio e alla sua promozione, per la preparazione di lavori che derivino da esso, o da incorporare in altri lavori questi Contenuti del’Utente, e a garantire e autorizzare sub-licenze per il futuro.
+Puoi rimuovere i tuoi Contenuti dal Servizio in ogni momento. In caso decidessi di cancellare il tuo account, la licenza sopra menzionata scadrà automaticamente e acconsenti che la Società archivi delle copie del tuo account.
+
+Non puoi pubblicare, modificare, distribuire o riprodurre in qualunque modo qualsiasi contenuto protetto da copyright, marchi, o altra informazione proprietaria che appartiene ad altri senza ottenere un consenso scritto e preventivo del proprietario dei suddetti diritti. KANITO rispetta la proprietà intellettuale di altri.
+È nostra politica rispondere a segnalazioni di possibili infrazioni che abbiano fondamento su leggi e direttive come il E.U. Copyright Directive (EUCD) o il Digital Millennium Copyright Act (DMCA).
+Se ritieni che il tuo lavoro sia stato copiato in una modo tale da costituire infrazione di copyright o se sei al corrente di qualunque altra infrazione, ti preghiamo di contattarci e fornirci le seguenti informazioni: un’autorizzazione con firma reale o elettronica del delegato del proprietario dei contenuti; una descrizione del materiale coperto da copyright che ritieni sia stato infranto; una descrizione di dove poter trovare questi contenuti sul Servizio (incluso indirizzo e screenshot allegato); il tuo indirizzo, telefono e indirizzo email; una dichiarazione scritta in cui sostieni che l’uso di tale materiale non è autorizzato da chi ne detiene i diritti, dal suo agente, o per legge; una tua dichiarazione, fatta sotto giuramento, che le informazioni da te riportate sono accurate e che tu sei il proprietario di tali contenuti o sei autorizzato ad agire nell’interesse dello stesso.
+
+ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L. e i suoi affiliati e licenziatari, hanno e mantengono tutti i diritti relativi al Servizio KANITO e ai relativi servizi, che contengono informazioni proprietarie e confidenziali che sono protette da qualsiasi legge applicabile e copyright.
+KANITO fornisce all’Utente una licenza limitata, revocabile e che non può essere trasferita né venduta in sub-licenza, per riprodurre e visualizzare i contenuti del Servizio esclusivamente a scopo personale. Questa licenza esclude ogni codice software, algoritmo e porzione del front-end e del back-end del Servizio.
+
+Eccetto se espressamente autorizzato dalla ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L., tu non puoi copiare, modificare, pubblicare, trasmettere, distribuire, performare, mostrare o vendere alcuna informazione proprietaria di KANITO, inclusi tutte le pubblicazioni e le foto sul Servizio. Il logo KANITO e “KANITO” sono marchi registrati di proprietà della ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L.
+
+
+ART. 14 - PRIVACY
+
+Clicca qui per leggere la nostra Informativa sulla Privacy.  
+
+
+ART. 15 - LIMITAZIONI DI RESPONSABILITA’, MANLEVA
+
+KANITO e i suoi affiliati, licenziatari, soci, fornitori, consulenti e agenti non assumono alcuna responsabilità circa l’accuratezza, il contenuto, la completezza, la legalità, l’affidamento, o l’operabilità o la disponibilità delle informazioni o dei contenuti mostrati su KANITO.
+
+KANITO non assume inoltre alcune responsabilità per la condotta dei propri Utenti.
+
+Le Attività cinofile non sono affiliati in alcun modo a KANITO e le informazioni mostrate sui loro profili, come promozioni di prodotti o servizi, non devono pertanto essere intese come offerte commerciali o come consigli all’acquisto e utilizzo da parte di KANITO, dei suoi affiliati, licenziatari, soci, fornitori, consulenti e agenti, per provare, acquistare, vendere, scambiare e fare affidamento su questi prodotti, servizi e/o soluzioni proposte.
+
+Liberi KANITO da ogni richiesta per qualsiasi perdita o danno subito, costi o spese sostenute nel prendere in considerazione alcun contenuto, proposta, commerciale e non, di qualsiasi operatore cinofilo registrato presso il Servizio. Specialmente informazioni o suggerimenti relativi ad importanti aspetti quali salute, alimentazione, comportamento e consigli legali non devono essere mai presi per buoni.
+
+KANITO invita ogni utente ad informarsi periodicamente su leggi e regolamenti locali.
+
+Liberi inoltre KANITO da ogni richiesta per qualsiasi perdita o danno subito, costi o spese sostenute dovute a causa di inesattezza delle informazioni pubblicare sul tuo account del Gestionale, quali, ad esempio, prenotazioni, estratti conto e statistiche.
+
+Il Servizio e tutti i relativi contenuti sono rilasciati “così come sono”, senza alcun tipo di garanzia. KANITO respinge.
+
+Dichiari che l’uso del Servizio è interamente a tuo rischio.
+
+Per nessun motivo KANITO sarà respnsabile nei tuoi confronti per qualsiasi danno indiretto che dovesse sorgenere dall’uso di KANITO o che possa ad esso essere correlato in alcun modo, senza che KANITO sia stato messo al corrente della possibilità di tali pericoli. Questa limitazione di responsabilità si applicherà sia in caso di danni derivanti dall’uso errato dei nostri servizi, dalla loro interruzione, sospensione o terminazione. Sono inclusi i danni subiti da terze parti.
+Per nessun motivo KANITO sarà responsabile nei tuoi confronti per qualsiasi importo che superi quanto da te pagato per l’uso dei nostri servizi durante il periodo dell’abbonamento.
+
+Dichiari di manlevare e indenneizzare la ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L., i suoi affiliati, licenziatari, soci, fornitori, consulenti, agenti e terze parti da e contro qualsiasi richiesta nata e in qualche modo correlata all’utilizzo di KANITO,  compresa ogni responsabilità e spesa originata da tutti le richieste, perdite, danni (attuali e futuri), cause, giudizi, spese per dispute, parcelle di avvocati, di qualunque tipo e natura.
+
+
+ART. 16 - CESSAZIONE E RISOLUZIONE DEL CONTRATTO
+
+Queste Condizioni d’Uso e di Vendita si applicano al tuo utilizzo del servizio KANITO. Possiamo terminare la tua sottoscrizione immediatamente e in qualsiasi momento senza preavviso.
+Se sei cliente del Gestionale, ti verrà inviata una comunicazione via email all’indirizzo da te indicato in fase di registrazione con 10 (giorni) di anticipo. Avrai diritto al rimborso dei giorni non usufruiti. Non avrai diritto ad alcun altro tipo di rimborso.
+Una volta terminata la tua sottoscrizione, non manterrai alcun diritto ad utilizzare i servizi KANITO. I nostri diritti proprietari, limitazioni di responsabilità, indennità, limitazioni di responsabilità e le disposizioni varie continueranno in essere dopo la cancellazione della tua sottoscrizione.
+
+
+ART. 17 - DISPOSIZIONI VARIE
+
+Accetti che questo Contratto venga governato dalla legge Italiana e che per qualsiasi disputa che dovesse nascere da o che sia in qualche modo legata a questo Contratto il foro competente sia Roma.
+
+Questo Contratto è accettato visitando il Servizio o registrandoti su KANITO e contiene l’intero accordo tra te e la ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L. relativo all’uso del Servizio. Questo Contratto potrà essere modificato esclusivamente su notifica a te indirizzata dalla ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L., o tramite documentazione scritta e firmata da te  un rappresentante della ECO ALANNO RAPPRESENTANZE TECNOLOGICHE S.R.L. autorizzato. A meno che diversamente dichiarato, le Condizioni persisteranno dopo la cessazione del Servizio e del Servizio. In caso qualsiasi punto di questo contratto venga considerato non valido, la restante parte del Contratto continuerà ad avere valore.
+
+Se per qualsiasi ragione una corte di competente giurisdizione giudicasse una clausola o parte di queste Condizioni non applicabili, la restante parte delle suddette condizioni continueranno ad avere effetto. Non puoi destinare queste Condizioni o alcun diritto  o delegare alcun obbligo, in tutto o in parte, sia volontariamente che seguendo legge alcuna, senza prima avere ottenuto permesso scritto. Qualsiasi destinazione o delega sarà considerata nulla e invalidata,  senza che abbia alcun effetto. I titoli degli articoli del presente Contratto sono stati inseriti per maggiore facilità di lettura e non hanno alcun effetto legale o contrattuale.
+
+Senza limitare quando sopraccitato, KANITO non sarà reso responsabile per qualsiasi ritardo o mancata prestazione che risultassero direttamente o indirettamente da fenomeni naturali, cause di forza maggiore, inclusi, senza limitazione, mancato collegamento ad Internet, rottura di componentistica del proprio computer, di reti di telecomunicazioni , reti elettriche, scioperi, conflitti lavorativi, risse, insurrezioni, disordini civili, mancanza di lavoro o materiali, incendi, inondazioni, tempeste, esplosioni, guerre, iniziative del governo, ordini di tribunali nazionali o internazionali, mancanza di servizio da terze parti, o perdita o intermittenza nella fornitura di riscaldamento, luce o aria condizionata.
+
+Queste Condizioni d’Uso e di Vendita costituiscono per intero il contratto tra te e KANITO rispetto a questa materia e annullano e sostituiscono ogni altro relativo contratto, scritto o non. Qualsiasi rinuncia a qualsiasi parte di queste Condizioni da una delle due parti dovrà essere controfirmata da entrambi.
+
+Per qualsiasi informazione relativa a questo contratto puoi contattarci a info@kanito.it.
+
+DICHIARO DI AVER LETTO IL PRESENTE CONTRATTO E DI ACCETTARE TUTTE LE DISPOSIZIONI IN ESSO CONTENUTE.
+
+DATA DI ULTIMA REVISIONE: 22 FEBBRAIO 2014</string>
+                                <color key="textColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81212294101715088" green="0.83526444435119629" blue="0.84455728530883789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EGZ-5B-JFG" firstAttribute="leading" secondItem="RaL-Sw-ZRt" secondAttribute="leading" id="FQR-FZ-UWl"/>
+                            <constraint firstAttribute="trailing" secondItem="EGZ-5B-JFG" secondAttribute="trailing" id="PJg-l2-4vv"/>
+                            <constraint firstItem="EGZ-5B-JFG" firstAttribute="top" secondItem="RaL-Sw-ZRt" secondAttribute="topMargin" id="YbZ-BG-ffD"/>
+                            <constraint firstAttribute="centerX" secondItem="ABr-aa-k9I" secondAttribute="centerX" id="uvU-G2-ow6"/>
+                            <constraint firstItem="znx-b0-EN5" firstAttribute="top" secondItem="ABr-aa-k9I" secondAttribute="bottom" constant="8" id="vWW-8k-JBm"/>
+                            <constraint firstItem="ABr-aa-k9I" firstAttribute="top" secondItem="EGZ-5B-JFG" secondAttribute="bottom" constant="2" id="zMc-1e-BtP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VYS-fz-jWW"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="headerTitle" value="#termCond.Title"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gba-Je-Eix" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3507" y="371"/>
+        </scene>
+        <!--View Reg User Biz-->
+        <scene sceneID="VA3-ZO-6YI">
+            <objects>
+                <viewController id="LBQ-Oa-7dM" customClass="ViewRegUserBiz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FiN-FA-IpO"/>
+                        <viewControllerLayoutGuide type="bottom" id="dBR-an-lxB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vcs-AB-GfH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6w-ih-5re" customClass="MyButton">
+                                <rect key="frame" x="0.0" y="609" width="375" height="20"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="fNE-x5-EPN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="10"/>
+                                <state key="normal" title="#regUser.MsgTerms">
+                                    <color key="titleColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SIK-ra-nKJ" kind="show" id="xCH-4X-rOo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcb-7g-IAX" customClass="MyButton">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8qQ-o1-50X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" title="#regUserBiz.Footer">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnReg" destination="LBQ-Oa-7dM" eventType="touchUpInside" id="P1t-rO-Yww"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zIf-Mr-Wds" customClass="ClsInputScrollView">
+                                <rect key="frame" x="37.5" y="40" width="300" height="547"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fub-aw-VL6" customClass="SubRegUserBiz">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="360"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEU-7K-DBm">
+                                                <rect key="frame" x="10" y="8" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nome_attività" translatesAutoresizingMaskIntoConstraints="NO" id="4Fl-oZ-FNR">
+                                                        <rect key="frame" x="11" y="6" width="24" height="24"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H0G-Pe-SSi" customClass="MyTextField">
+                                                        <rect key="frame" x="47" y="3" width="220" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="zIf-Mr-Wds" id="uNt-ma-cXq"/>
+                                                            <outlet property="nextTextField" destination="4Cd-OZ-que" id="qon-eg-DXT"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pIS-YI-k1J">
+                                                <rect key="frame" x="10" y="128" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J9B-Kx-P6i" customClass="MyTextField">
+                                                        <rect key="frame" x="47" y="3" width="220" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="zIf-Mr-Wds" id="oNW-Qx-flS"/>
+                                                            <outlet property="nextTextField" destination="jgf-Q5-F0R" id="a21-iT-Qah"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="ZDQ-jd-Tak">
+                                                        <rect key="frame" x="13" y="8" width="20" height="20"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4r-gQ-cfY">
+                                                <rect key="frame" x="10" y="48" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Cd-OZ-que" customClass="MyTextField">
+                                                        <rect key="frame" x="47" y="3" width="220" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="zIf-Mr-Wds" id="725-D3-4al"/>
+                                                            <outlet property="nextTextField" destination="Liu-Di-g6d" id="Jya-qn-ioD"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mail" translatesAutoresizingMaskIntoConstraints="NO" id="3Yw-qs-eLk">
+                                                        <rect key="frame" x="13" y="8" width="20" height="20"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UMF-aJ-uIP">
+                                                <rect key="frame" x="10" y="88" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Username" translatesAutoresizingMaskIntoConstraints="NO" id="fub-2t-nAj">
+                                                        <rect key="frame" x="13" y="8" width="20" height="20"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="user" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Liu-Di-g6d" customClass="MyTextField">
+                                                        <rect key="frame" x="47" y="3" width="220" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="zIf-Mr-Wds" id="w7p-SI-evh"/>
+                                                            <outlet property="nextTextField" destination="J9B-Kx-P6i" id="RQx-R3-dfA"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPm-Aj-hOa">
+                                                <rect key="frame" x="10" y="168" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=".address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgf-Q5-F0R" customClass="MyTextField">
+                                                        <rect key="frame" x="47" y="3" width="220" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="zIf-Mr-Wds" id="LOX-PX-0Q3"/>
+                                                            <outlet property="nextTextField" destination="KSL-gT-p3c" id="A9f-5Y-Glh"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Location" translatesAutoresizingMaskIntoConstraints="NO" id="yIg-cO-RIl">
+                                                        <rect key="frame" x="13" y="8" width="20" height="20"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCE-Zx-A1p">
+                                                <rect key="frame" x="10" y="208" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=".cap" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-gT-p3c" customClass="MyTextField">
+                                                        <rect key="frame" x="47" y="3" width="220" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="zIf-Mr-Wds" id="5Jx-aD-Xkp"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Location" translatesAutoresizingMaskIntoConstraints="NO" id="TqU-Vd-D2k">
+                                                        <rect key="frame" x="13" y="8" width="20" height="20"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#regUserBiz.City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNb-tD-1OS" customClass="MyLabel">
+                                                <rect key="frame" x="10" y="255" width="250" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                                <color key="textColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCF-A4-qeK">
+                                                <rect key="frame" x="260" y="251" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="NextPage">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnCity:" destination="Fub-aw-VL6" eventType="touchUpInside" id="maW-oV-6RO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rp-l0-RPH">
+                                                <rect key="frame" x="260" y="286" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="NextPage">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnCountry:" destination="Fub-aw-VL6" eventType="touchUpInside" id="aZ9-Ky-Lkq"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#regUserBiz.Activities" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGo-rn-5Gc" customClass="MyLabel">
+                                                <rect key="frame" x="10" y="325" width="250" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                                <color key="textColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ld7-Ys-U4p">
+                                                <rect key="frame" x="260" y="321" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" backgroundImage="NextPage">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnActivities:" destination="Fub-aw-VL6" eventType="touchUpInside" id="GCv-Wj-fdq"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#regUserBiz.Country" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SQ-lJ-xi8" customClass="MyLabel">
+                                                <rect key="frame" x="10" y="290" width="250" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                                <color key="textColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="360" id="iDf-7f-zkt"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="lblActivities" destination="RGo-rn-5Gc" id="uTY-e1-v47"/>
+                                            <outlet property="lblCity" destination="wNb-tD-1OS" id="wNA-ZE-cwQ"/>
+                                            <outlet property="lblCountry" destination="3SQ-lJ-xi8" id="ElY-Mi-HVH"/>
+                                            <outlet property="txtAddr" destination="jgf-Q5-F0R" id="5I4-ZU-tAM"/>
+                                            <outlet property="txtCap" destination="KSL-gT-p3c" id="aX3-mh-rJM"/>
+                                            <outlet property="txtMail" destination="4Cd-OZ-que" id="nBb-nC-29w"/>
+                                            <outlet property="txtNome" destination="Liu-Di-g6d" id="0yH-xK-QPE"/>
+                                            <outlet property="txtPass" destination="J9B-Kx-P6i" id="sBu-Cs-ZSC"/>
+                                            <outlet property="txtUser" destination="Liu-Di-g6d" id="7sA-vO-xkr"/>
+                                            <outlet property="viewAddr" destination="mPm-Aj-hOa" id="oxc-Uz-OYw"/>
+                                            <outlet property="viewCap" destination="LCE-Zx-A1p" id="ezH-ee-Eei"/>
+                                            <outlet property="viewMail" destination="o4r-gQ-cfY" id="loJ-7r-Jiw"/>
+                                            <outlet property="viewNome" destination="nEU-7K-DBm" id="wqo-8Z-GaR"/>
+                                            <outlet property="viewPass" destination="pIS-YI-k1J" id="rbz-k2-I0h"/>
+                                            <outlet property="viewUser" destination="UMF-aJ-uIP" id="heb-kj-4uC"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="D08-mT-0Me"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fub-aw-VL6" secondAttribute="bottom" constant="120" id="DAu-pU-lpe"/>
+                                    <constraint firstItem="Fub-aw-VL6" firstAttribute="leading" secondItem="zIf-Mr-Wds" secondAttribute="leading" id="DnY-n5-USH"/>
+                                    <constraint firstItem="Fub-aw-VL6" firstAttribute="leading" secondItem="zIf-Mr-Wds" secondAttribute="leading" id="NT9-he-TGJ"/>
+                                    <constraint firstItem="Fub-aw-VL6" firstAttribute="centerX" secondItem="zIf-Mr-Wds" secondAttribute="centerX" id="Nw0-Xi-haF"/>
+                                    <constraint firstItem="Fub-aw-VL6" firstAttribute="top" secondItem="zIf-Mr-Wds" secondAttribute="top" id="aP5-V1-eio"/>
+                                    <constraint firstItem="Fub-aw-VL6" firstAttribute="top" secondItem="zIf-Mr-Wds" secondAttribute="top" id="cYc-It-LQP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fub-aw-VL6" secondAttribute="trailing" id="rs7-bv-dc0"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fub-aw-VL6" secondAttribute="trailing" id="t3j-tL-3gx"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81212294101715088" green="0.83526444435119629" blue="0.84455728530883789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qcb-7g-IAX" firstAttribute="top" secondItem="e6w-ih-5re" secondAttribute="bottom" constant="-2" id="4h0-pb-mBq"/>
+                            <constraint firstItem="zIf-Mr-Wds" firstAttribute="centerX" secondItem="Vcs-AB-GfH" secondAttribute="centerX" id="CCM-9n-vdI"/>
+                            <constraint firstAttribute="trailing" secondItem="qcb-7g-IAX" secondAttribute="trailing" id="L3j-wC-Kq3"/>
+                            <constraint firstItem="qcb-7g-IAX" firstAttribute="leading" secondItem="Vcs-AB-GfH" secondAttribute="leading" id="M2d-hK-QBH"/>
+                            <constraint firstItem="e6w-ih-5re" firstAttribute="top" secondItem="zIf-Mr-Wds" secondAttribute="bottom" constant="22" id="NSB-6F-9XW"/>
+                            <constraint firstAttribute="trailing" secondItem="e6w-ih-5re" secondAttribute="trailing" id="OjW-ax-MoF"/>
+                            <constraint firstItem="zIf-Mr-Wds" firstAttribute="top" secondItem="FiN-FA-IpO" secondAttribute="bottom" constant="20" id="P4c-DD-9ey"/>
+                            <constraint firstItem="e6w-ih-5re" firstAttribute="leading" secondItem="Vcs-AB-GfH" secondAttribute="leading" id="b15-Vj-d0a"/>
+                            <constraint firstItem="dBR-an-lxB" firstAttribute="top" secondItem="qcb-7g-IAX" secondAttribute="bottom" id="dFA-c3-ZtH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vTi-LT-9xJ"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="scrlUser" destination="zIf-Mr-Wds" id="emL-ig-ODB"/>
+                        <outlet property="subRegUserBiz" destination="Fub-aw-VL6" id="Pdf-Fx-eL6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqi-Bh-Zk2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3153" y="-412"/>
+        </scene>
+        <!--View Reg User Pvt-->
+        <scene sceneID="Atx-DJ-3D1">
+            <objects>
+                <viewController id="le7-JC-PoX" customClass="ViewRegUserPvt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LfX-dV-Q83"/>
+                        <viewControllerLayoutGuide type="bottom" id="MjX-cS-0uy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SY0-pN-kxT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ho-08-OId" customClass="MyButton">
+                                <rect key="frame" x="0.0" y="604" width="375" height="20"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8zI-8u-ryY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="10"/>
+                                <state key="normal" title="#regUser.MsgTerms">
+                                    <color key="titleColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SIK-ra-nKJ" kind="show" id="5t6-WV-ISx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcq-JE-bLT" customClass="MyButton">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cFI-ib-qRJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" title="#regUserPvt.Footer">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnRegister" destination="le7-JC-PoX" eventType="touchUpInside" id="iMm-EM-jbO"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ex1-Vf-rQz" userLabel="Input Scroll View" customClass="ClsInputScrollView">
+                                <rect key="frame" x="37.5" y="30" width="300" height="567"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TW1-qC-eDw" customClass="MyButtonRounded">
+                                        <rect key="frame" x="10" y="30" width="280" height="40"/>
+                                        <color key="backgroundColor" red="0.18441876769065857" green="0.27657321095466614" blue="0.51629072427749634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="MwM-Bi-cQ0"/>
+                                            <constraint firstAttribute="height" constant="40" id="PAk-hs-Deg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
+                                        <state key="normal" title="FB">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnFB" destination="le7-JC-PoX" eventType="touchUpInside" id="b2n-LW-ecz"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vex-2g-s2O" customClass="MyLabel">
+                                        <rect key="frame" x="130" y="94" width="40" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YE3-63-Dcc">
+                                        <rect key="frame" x="15" y="139" width="270" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="av9-Iu-BAv" customClass="MyTextField">
+                                                <rect key="frame" x="42" y="3" width="220" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="ex1-Vf-rQz" id="BoL-GM-UBW"/>
+                                                    <outlet property="nextTextField" destination="iiz-RS-adF" id="4Jf-uS-Se1"/>
+                                                </connections>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mail" highlightedImage="Mail" translatesAutoresizingMaskIntoConstraints="NO" id="w2M-qD-bAt">
+                                                <rect key="frame" x="8" y="8" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kNN-NI-i0G">
+                                        <rect key="frame" x="15" y="184" width="270" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="user" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iiz-RS-adF" customClass="MyTextField">
+                                                <rect key="frame" x="42" y="3" width="220" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="ex1-Vf-rQz" id="7Fc-gX-iMt"/>
+                                                    <outlet property="nextTextField" destination="kky-bA-wgU" id="MRf-Hh-pbS"/>
+                                                </connections>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Username" translatesAutoresizingMaskIntoConstraints="NO" id="hum-XT-dGk">
+                                                <rect key="frame" x="8" y="8" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tj9-ev-dqV">
+                                        <rect key="frame" x="15" y="229" width="270" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kky-bA-wgU" customClass="MyTextField">
+                                                <rect key="frame" x="42" y="0.0" width="220" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="ex1-Vf-rQz" id="N8l-08-VTj"/>
+                                                </connections>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="ogG-3x-7pV">
+                                                <rect key="frame" x="8" y="5" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J13-6b-GiL">
+                                        <rect key="frame" x="0.0" y="104" width="125" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R0V-kK-hTo">
+                                        <rect key="frame" x="175" y="104" width="125" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="TW1-qC-eDw" firstAttribute="top" secondItem="ex1-Vf-rQz" secondAttribute="top" constant="30" id="Q7t-GD-08x"/>
+                                    <constraint firstAttribute="height" constant="500" id="jix-d6-aVo"/>
+                                    <constraint firstItem="TW1-qC-eDw" firstAttribute="centerX" secondItem="ex1-Vf-rQz" secondAttribute="centerX" id="pI7-1t-oLL"/>
+                                    <constraint firstAttribute="width" constant="300" id="tfN-P9-kpU"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="jix-d6-aVo"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81212294101715088" green="0.83526444435119629" blue="0.84455728530883789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MjX-cS-0uy" firstAttribute="top" secondItem="ex1-Vf-rQz" secondAttribute="bottom" constant="70" id="ERp-KE-01A"/>
+                            <constraint firstItem="ex1-Vf-rQz" firstAttribute="top" secondItem="LfX-dV-Q83" secondAttribute="bottom" constant="10" id="Eoz-Le-xar"/>
+                            <constraint firstItem="MjX-cS-0uy" firstAttribute="top" secondItem="gcq-JE-bLT" secondAttribute="bottom" id="HpS-lM-08X"/>
+                            <constraint firstItem="ex1-Vf-rQz" firstAttribute="centerX" secondItem="SY0-pN-kxT" secondAttribute="centerX" id="INg-8F-D4m"/>
+                            <constraint firstAttribute="trailing" secondItem="5Ho-08-OId" secondAttribute="trailing" id="f3B-lR-c6y"/>
+                            <constraint firstItem="gcq-JE-bLT" firstAttribute="leading" secondItem="SY0-pN-kxT" secondAttribute="leading" id="h2N-T5-Acs"/>
+                            <constraint firstItem="5Ho-08-OId" firstAttribute="leading" secondItem="SY0-pN-kxT" secondAttribute="leading" id="lMx-dP-wTO"/>
+                            <constraint firstAttribute="trailing" secondItem="gcq-JE-bLT" secondAttribute="trailing" id="mUY-pn-eae"/>
+                            <constraint firstItem="gcq-JE-bLT" firstAttribute="top" secondItem="5Ho-08-OId" secondAttribute="bottom" constant="3" id="xVh-dW-Cpe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qLF-TZ-HPd"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btnFb" destination="TW1-qC-eDw" id="kTu-pJ-f90"/>
+                        <outlet property="inputScrollView" destination="ex1-Vf-rQz" id="hQJ-Xh-ORk"/>
+                        <outlet property="txtMail" destination="av9-Iu-BAv" id="HCT-ei-UvJ"/>
+                        <outlet property="txtPass" destination="kky-bA-wgU" id="JMK-U8-Nsh"/>
+                        <outlet property="txtUser" destination="iiz-RS-adF" id="y89-nw-tFe"/>
+                        <outlet property="viewMail" destination="YE3-63-Dcc" id="eGZ-EP-ybb"/>
+                        <outlet property="viewPass" destination="tj9-ev-dqV" id="rSF-Ej-Adb"/>
+                        <outlet property="viewUser" destination="kNN-NI-i0G" id="r7L-fN-D0k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="orz-Y9-gCH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3870" y="-412"/>
+        </scene>
+        <!--Reg User Type Ctrl-->
+        <scene sceneID="6uX-9D-9TB">
+            <objects>
+                <viewController storyboardIdentifier="RegUserTypeCtrl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hMZ-gV-qzH" customClass="RegUserTypeCtrl" customModule="Kanito" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FTP-n7-djN"/>
+                        <viewControllerLayoutGuide type="bottom" id="laT-1w-ZQH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T37-yr-y0z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backMain.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fpt-C4-FS6" userLabel="Image Background">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gr-M1-b5l">
+                                <rect key="frame" x="27.5" y="253.5" width="320" height="160"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#loginMain.UserDesc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="90" translatesAutoresizingMaskIntoConstraints="NO" id="flj-Jc-dkL" customClass="MYLabel" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="31" y="102" width="100" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vv-4Y-EbA">
+                                        <rect key="frame" x="207" y="22" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="Attività_cinofila">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="LBQ-Oa-7dM" kind="show" id="qke-Ge-bLv"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#loginMain.Serv" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OWy-Di-FGI" customClass="MYLabel" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="167" y="82" width="140" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                        <color key="textColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMA-Uq-7Bn">
+                                        <rect key="frame" x="50" y="22" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="Utente_privato">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="le7-JC-PoX" kind="show" id="45v-zq-kka"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#loginMain.ServDesc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="90" translatesAutoresizingMaskIntoConstraints="NO" id="tCZ-qY-kZA" customClass="MYLabel" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="187" y="102" width="100" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#loginMain.User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="m0j-Ho-U2O" customClass="MYLabel" customModule="Kanito" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="82" width="140" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                        <color key="textColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="KVV-PW-M3K"/>
+                                    <constraint firstAttribute="width" constant="320" id="yTz-Bd-7SD"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#regUserType.Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="APn-Y4-BHA" customClass="MYLabel" customModule="Kanito" customModuleProvider="target">
+                                <rect key="frame" x="40" y="45" width="295" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oBE-Xb-zRq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL6-hk-kaO">
+                                <rect key="frame" x="4" y="20" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="e3T-Yk-bjW"/>
+                                    <constraint firstAttribute="height" constant="24" id="eQs-Ea-GaZ"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Back">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBack" destination="hMZ-gV-qzH" eventType="touchUpInside" id="hcY-Kv-vnb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoKanito" translatesAutoresizingMaskIntoConstraints="NO" id="8AX-3F-ajk">
+                                <rect key="frame" x="40" y="582.5" width="295" height="76.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8AX-3F-ajk" secondAttribute="height" multiplier="104:27" id="ZU7-aq-gFN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="laT-1w-ZQH" firstAttribute="top" secondItem="8AX-3F-ajk" secondAttribute="bottom" constant="8" id="Adh-B4-v0u"/>
+                            <constraint firstAttribute="trailing" secondItem="8AX-3F-ajk" secondAttribute="trailing" constant="40" id="CFu-T7-d43"/>
+                            <constraint firstAttribute="centerY" secondItem="8gr-M1-b5l" secondAttribute="centerY" id="CG5-Dt-wdi"/>
+                            <constraint firstAttribute="trailing" secondItem="APn-Y4-BHA" secondAttribute="trailing" constant="40" id="NaJ-AN-vnp"/>
+                            <constraint firstItem="Fpt-C4-FS6" firstAttribute="leading" secondItem="T37-yr-y0z" secondAttribute="leading" id="YnF-eS-hhI"/>
+                            <constraint firstItem="APn-Y4-BHA" firstAttribute="leading" secondItem="T37-yr-y0z" secondAttribute="leading" constant="40" id="e0Y-jD-EJS"/>
+                            <constraint firstItem="laT-1w-ZQH" firstAttribute="top" secondItem="Fpt-C4-FS6" secondAttribute="bottom" id="keb-Kw-vzq"/>
+                            <constraint firstAttribute="trailing" secondItem="Fpt-C4-FS6" secondAttribute="trailing" id="lek-Pw-gJe"/>
+                            <constraint firstItem="Fpt-C4-FS6" firstAttribute="top" secondItem="T37-yr-y0z" secondAttribute="top" id="neJ-GY-UWm"/>
+                            <constraint firstItem="xL6-hk-kaO" firstAttribute="leading" secondItem="T37-yr-y0z" secondAttribute="leading" constant="4" id="oUh-K0-NFe"/>
+                            <constraint firstItem="APn-Y4-BHA" firstAttribute="top" secondItem="T37-yr-y0z" secondAttribute="topMargin" constant="45" id="tgY-yw-9qo"/>
+                            <constraint firstAttribute="centerX" secondItem="8gr-M1-b5l" secondAttribute="centerX" id="uNc-PF-JV8"/>
+                            <constraint firstItem="8AX-3F-ajk" firstAttribute="leading" secondItem="T37-yr-y0z" secondAttribute="leading" constant="40" id="wfe-bp-mCk"/>
+                            <constraint firstItem="xL6-hk-kaO" firstAttribute="top" secondItem="FTP-n7-djN" secondAttribute="bottom" id="yJB-Rn-bOK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OG0-kn-ILO"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="viewSignUp" destination="8gr-M1-b5l" id="TvS-0l-oxV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SDi-Vt-DQq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3507" y="-1190"/>
+        </scene>
+        <!--View Reg Biz Opt-->
+        <scene sceneID="zYH-pW-EXF">
+            <objects>
+                <viewController storyboardIdentifier="ViewRegBizOpt" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XoW-ms-Pra" customClass="ViewRegBizOpt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="36E-a3-2Xw"/>
+                        <viewControllerLayoutGuide type="bottom" id="vgH-Gd-ouC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g9W-yA-CZt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="keS-3t-GTX">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.81212294101715088" green="0.83526444435119629" blue="0.84455728530883789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="XoW-ms-Pra" id="HvZ-DV-7XB"/>
+                                    <outlet property="delegate" destination="XoW-ms-Pra" id="KmQ-bG-GFu"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="IkY-kU-nQd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="XoW-ms-Pra" id="ol2-jF-BSv"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="keS-3t-GTX" firstAttribute="top" secondItem="IkY-kU-nQd" secondAttribute="bottom" id="I5F-A6-5hS"/>
+                            <constraint firstAttribute="trailing" secondItem="keS-3t-GTX" secondAttribute="trailing" id="O3q-hP-f1O"/>
+                            <constraint firstItem="keS-3t-GTX" firstAttribute="top" secondItem="g9W-yA-CZt" secondAttribute="topMargin" constant="44" id="TPS-Df-edx"/>
+                            <constraint firstAttribute="trailing" secondItem="IkY-kU-nQd" secondAttribute="trailing" id="VDV-UM-09W"/>
+                            <constraint firstItem="IkY-kU-nQd" firstAttribute="leading" secondItem="g9W-yA-CZt" secondAttribute="leading" id="khW-Wt-k4g"/>
+                            <constraint firstItem="IkY-kU-nQd" firstAttribute="top" secondItem="g9W-yA-CZt" secondAttribute="top" id="pIE-tW-zFF"/>
+                            <constraint firstItem="vgH-Gd-ouC" firstAttribute="top" secondItem="keS-3t-GTX" secondAttribute="bottom" id="u38-3f-W7W"/>
+                            <constraint firstItem="keS-3t-GTX" firstAttribute="leading" secondItem="g9W-yA-CZt" secondAttribute="leading" id="xos-8T-ynN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y2B-Ap-uMD"/>
+                    <connections>
+                        <outlet property="srch" destination="IkY-kU-nQd" id="swD-ub-jdz"/>
+                        <outlet property="tblOpts" destination="keS-3t-GTX" id="I5A-uW-5ox"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PA0-Up-2fJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2398" y="-405"/>
+        </scene>
+        <!--View Reg Biz Act-->
+        <scene sceneID="BiH-Kq-ytt">
+            <objects>
+                <viewController storyboardIdentifier="ViewRegBizAct" useStoryboardIdentifierAsRestorationIdentifier="YES" id="V9g-dv-FX3" customClass="ViewRegBizAct" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hJq-im-FAF"/>
+                        <viewControllerLayoutGuide type="bottom" id="x5R-2q-wGR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pMb-bP-45X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#regUserBizOpts.NoActivities" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYJ-eN-DkU" customClass="MyLabel">
+                                <rect key="frame" x="0.0" y="2" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OSC-UH-2bc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99082666635513306" green="0.52709847688674927" blue="0.033221755176782608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-Pf-Shb" customClass="MyButton">
+                                <rect key="frame" x="2" y="2" width="371" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tEq-My-hDa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <state key="normal" title="#regUserBizOpts.SelActivities">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveActivitiesSelected" destination="V9g-dv-FX3" eventType="touchUpInside" id="r7W-fQ-8So"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-mS-9Xk">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.81212294101715088" green="0.83526444435119629" blue="0.84455728530883789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="V9g-dv-FX3" id="YwD-xA-Ar7"/>
+                                    <outlet property="delegate" destination="V9g-dv-FX3" id="jga-hs-A8N"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qj0-Pf-Shb" firstAttribute="top" secondItem="pMb-bP-45X" secondAttribute="top" constant="2" id="8ux-i3-iiX"/>
+                            <constraint firstItem="x5R-2q-wGR" firstAttribute="top" secondItem="y6F-mS-9Xk" secondAttribute="bottom" id="D1I-PE-yQq"/>
+                            <constraint firstItem="zYJ-eN-DkU" firstAttribute="leading" secondItem="pMb-bP-45X" secondAttribute="leading" id="Dek-vm-Dkp"/>
+                            <constraint firstItem="qj0-Pf-Shb" firstAttribute="leading" secondItem="pMb-bP-45X" secondAttribute="leading" constant="2" id="Hiu-kg-dwH"/>
+                            <constraint firstItem="y6F-mS-9Xk" firstAttribute="leading" secondItem="pMb-bP-45X" secondAttribute="leading" id="I3C-kT-F5y"/>
+                            <constraint firstItem="y6F-mS-9Xk" firstAttribute="top" secondItem="pMb-bP-45X" secondAttribute="topMargin" constant="44" id="W9P-zy-Vu4"/>
+                            <constraint firstAttribute="trailing" secondItem="y6F-mS-9Xk" secondAttribute="trailing" id="mdZ-Eb-8YT"/>
+                            <constraint firstAttribute="trailing" secondItem="zYJ-eN-DkU" secondAttribute="trailing" id="rL7-qm-QC4"/>
+                            <constraint firstItem="zYJ-eN-DkU" firstAttribute="top" secondItem="pMb-bP-45X" secondAttribute="top" constant="2" id="sdm-hW-ncT"/>
+                            <constraint firstAttribute="trailing" secondItem="qj0-Pf-Shb" secondAttribute="trailing" constant="2" id="sfm-LG-FsU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CIM-WX-xSS"/>
+                    <connections>
+                        <outlet property="btnSelected" destination="qj0-Pf-Shb" id="eyP-sB-Rlm"/>
+                        <outlet property="tblActs" destination="y6F-mS-9Xk" id="e2B-yU-IrM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oj5-na-OEW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2398" y="256"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Attività_cinofila" width="256" height="256"/>
+        <image name="Back" width="256" height="256"/>
+        <image name="Location" width="256" height="256"/>
+        <image name="Mail" width="256" height="256"/>
+        <image name="NextPage" width="512" height="512"/>
+        <image name="Nome_attività" width="256" height="256"/>
+        <image name="Password" width="256" height="256"/>
+        <image name="Username" width="256" height="256"/>
+        <image name="Utente_privato" width="256" height="256"/>
+        <image name="backMain.jpg" width="278" height="494"/>
+        <image name="logoKanito" width="729" height="196"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5t6-WV-ISx"/>
+    </inferredMetricsTieBreakers>
+</document>

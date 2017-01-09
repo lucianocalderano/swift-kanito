@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyInputView">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="36"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kO4-yU-eXg" customClass="MyTextField">
+                    <rect key="frame" x="36" y="2" width="226" height="32"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i7b-hW-655">
+                    <rect key="frame" x="8" y="8" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="Mpg-we-EBb"/>
+                        <constraint firstAttribute="height" constant="20" id="d19-YW-IGV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="kO4-yU-eXg" firstAttribute="leading" secondItem="i7b-hW-655" secondAttribute="trailing" constant="8" id="1SU-fc-5t4"/>
+                <constraint firstItem="kO4-yU-eXg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="ReU-bc-8YN"/>
+                <constraint firstItem="i7b-hW-655" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bkG-me-LGB"/>
+                <constraint firstItem="i7b-hW-655" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="hGN-yT-8wc"/>
+                <constraint firstAttribute="trailing" secondItem="kO4-yU-eXg" secondAttribute="trailing" constant="8" id="qY8-jh-QRD"/>
+                <constraint firstAttribute="bottom" secondItem="kO4-yU-eXg" secondAttribute="bottom" constant="2" id="rme-9i-sRS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="i7b-hW-655" id="ipf-wZ-WgB"/>
+                <outlet property="text" destination="kO4-yU-eXg" id="heV-tN-1OU"/>
+            </connections>
+            <point key="canvasLocation" x="232.5" y="106.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,80 @@
+{
+  "AppIcons" : {
+
+  },
+  "FormatVersion" : 1,
+  "WhitelistedFiles" : {
+    "kanito\/app.base\/Images\/iconearancio.xcassets\/home.Explore.imageset\/home.Explore.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Home.imageset\/Home.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Clienti.imageset\/Clienti.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Punti.imageset\/Punti.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/homeMioKanito.imageset\/homeMioKanito.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Scadenza.imageset\/Scadenza.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Cuore bianco.imageset\/Cuore bianco.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconegrigie.xcassets\/Freccia_grigio.imageset\/Freccia_grigio.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconearancio.xcassets\/Flash_auto.imageset\/Flash_auto.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/homeBacheca.imageset\/homeBacheca.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Telefono_bianco.imageset\/Telefono_bianco.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconearancio.xcassets\/Area_Disegno.imageset\/Area_Disegno.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Freccia_bianco.imageset\/Freccia_bianco.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconearancio.xcassets\/Flash_no.imageset\/Flash_no.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/launchimgandlogo.xcassets\/LaunchImage.launchimage\/ScreenShot-1.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Foto.imageset\/Foto.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/X.imageset\/X.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Home_bianco.imageset\/Home_bianco.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconearancio.xcassets\/Like_pieno.imageset\/Like_pieno.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Impegni.imageset\/Impegni.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Email_bianca.imageset\/Email_bianca.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Prenotazioni.imageset\/Prenotazioni.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconearancio.xcassets\/Freccia.imageset\/Freccia.png" : {
+      "WhitelistedUsed" : true
+    },
+    "kanito\/app.base\/Images\/iconeBianche.xcassets\/Mail_bianco.imageset\/Mail_bianco.png" : {
+      "WhitelistedUsed" : true
+    }
+  }
+}

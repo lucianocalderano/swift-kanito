@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bLv-Gn-xf8" customClass="SubPetSrvDetail">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="392"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.5" tag="99" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoKanito" translatesAutoresizingMaskIntoConstraints="NO" id="lOH-jv-U4I">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="es4-fy-kmr"/>
+                    </constraints>
+                </imageView>
+                <view tag="97" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHS-fD-PQ0" userLabel="View Follow (97)">
+                    <rect key="frame" x="500" y="189" width="100" height="62"/>
+                    <subviews>
+                        <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjX-gf-voj" customClass="MyButtonRounded">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="20"/>
+                            <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                            <state key="normal" title="#follow">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="105" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#petSrvList.FollBy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2Q-Hg-u8F" customClass="MyLabel">
+                            <rect key="frame" x="0.0" y="26" width="100" height="18"/>
+                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SDp-TS-g9N" userLabel="View Sub Follow">
+                            <rect key="frame" x="0.0" y="42" width="100" height="20"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Utente_privato" translatesAutoresizingMaskIntoConstraints="NO" id="cBf-jd-NBn">
+                                    <rect key="frame" x="28" y="0.0" width="20" height="20"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Attività_cinofila" translatesAutoresizingMaskIntoConstraints="NO" id="bsG-Qf-4yV">
+                                    <rect key="frame" x="78" y="0.0" width="20" height="20"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="111" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(111)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-8C-HtX" customClass="MyLabel">
+                                    <rect key="frame" x="0.0" y="0.0" width="26" height="20"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" tag="112" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(112)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIQ-2x-66u" customClass="MyLabel">
+                                    <rect key="frame" x="50" y="0.0" width="26" height="20"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Qyq-lI-tgV"/>
+                        <constraint firstAttribute="height" constant="62" id="mjP-3g-uqC"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".Address (103)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tko-fI-1vI" customClass="MyLabel">
+                    <rect key="frame" x="0.0" y="214" width="492" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Jg8-eh-Tip"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity name (102)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSd-Fw-gpX" customClass="MyLabel">
+                    <rect key="frame" x="0.0" y="168" width="600" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="T3Y-s9-MdX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                    <color key="textColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="55" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".Activities (55)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IO4-oD-elc" customClass="MyLabel">
+                    <rect key="frame" x="0.0" y="189" width="492" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="VZl-IC-Ke2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="11"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".City (104)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-jU-39Q" customClass="MyLabel">
+                    <rect key="frame" x="0.0" y="233" width="492" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="c3j-p0-7Kg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfR-gE-Sab" customClass="MyLabel">
+                    <rect key="frame" x="0.0" y="260" width="600" height="30"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Gde-M8-1rG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rOx-TR-Snj">
+                    <rect key="frame" x="0.0" y="290" width="600" height="2"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="fRd-Ue-U8l"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="fRd-Ue-U8l"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ue-J8-OkP" userLabel="View contact us">
+                    <rect key="frame" x="0.0" y="292" width="600" height="100"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#contactus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZr-wo-nBH" userLabel="Contattaci" customClass="MyLabel">
+                            <rect key="frame" x="140" y="8" width="320" height="21"/>
+                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83b-yj-Aiq">
+                            <rect key="frame" x="275" y="28" width="50" height="50"/>
+                            <state key="normal" backgroundImage="Email_arancione">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClicked:" destination="bLv-Gn-xf8" eventType="touchUpInside" id="U5g-FM-Mkm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ZG-C5-7Db">
+                            <rect key="frame" x="353" y="28" width="50" height="50"/>
+                            <state key="normal" backgroundImage="Messaggio_arancione">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClicked:" destination="bLv-Gn-xf8" eventType="touchUpInside" id="lNx-Pq-28x"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ka-SW-Qbe">
+                            <rect key="frame" x="197" y="28" width="50" height="50"/>
+                            <state key="normal" backgroundImage="Telefono_arancione">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClicked:" destination="bLv-Gn-xf8" eventType="touchUpInside" id="m6f-0b-dRW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="600" id="HEz-XC-fvM"/>
+                        <constraint firstAttribute="height" constant="100" id="HYs-vb-iO3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lOH-jv-U4I" firstAttribute="top" secondItem="bLv-Gn-xf8" secondAttribute="top" id="0ZJ-LK-8EW"/>
+                <constraint firstItem="IO4-oD-elc" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="1GQ-xA-S50"/>
+                <constraint firstItem="rOx-TR-Snj" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="2mr-ID-fKC"/>
+                <constraint firstItem="YfR-gE-Sab" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="3A5-4R-70B"/>
+                <constraint firstAttribute="centerX" secondItem="5Ue-J8-OkP" secondAttribute="centerX" id="7Tc-QU-vJZ"/>
+                <constraint firstItem="tko-fI-1vI" firstAttribute="top" secondItem="IO4-oD-elc" secondAttribute="bottom" constant="7" id="9P7-iv-Qrj"/>
+                <constraint firstItem="bHS-fD-PQ0" firstAttribute="leading" secondItem="9gU-jU-39Q" secondAttribute="trailing" constant="8" id="BJa-vN-5WE"/>
+                <constraint firstItem="GSd-Fw-gpX" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="Gaz-ei-oH9"/>
+                <constraint firstItem="bHS-fD-PQ0" firstAttribute="top" secondItem="bLv-Gn-xf8" secondAttribute="top" constant="189" id="IMW-QI-F7z"/>
+                <constraint firstItem="5Ue-J8-OkP" firstAttribute="top" secondItem="rOx-TR-Snj" secondAttribute="bottom" id="JYY-rh-tUT"/>
+                <constraint firstAttribute="trailing" secondItem="YfR-gE-Sab" secondAttribute="trailing" id="RMO-mO-u5e"/>
+                <constraint firstItem="YfR-gE-Sab" firstAttribute="top" secondItem="bLv-Gn-xf8" secondAttribute="top" constant="260" id="TAj-0X-FoA"/>
+                <constraint firstAttribute="trailing" secondItem="rOx-TR-Snj" secondAttribute="trailing" id="Y7f-V8-GYU"/>
+                <constraint firstAttribute="trailing" secondItem="bHS-fD-PQ0" secondAttribute="trailing" id="YSH-sR-5ra"/>
+                <constraint firstItem="IO4-oD-elc" firstAttribute="top" secondItem="GSd-Fw-gpX" secondAttribute="bottom" constant="1" id="YWy-U9-H7V"/>
+                <constraint firstAttribute="trailing" secondItem="lOH-jv-U4I" secondAttribute="trailing" id="a38-PC-Bf5"/>
+                <constraint firstAttribute="bottom" secondItem="5Ue-J8-OkP" secondAttribute="bottom" id="btF-1S-7XO"/>
+                <constraint firstItem="GSd-Fw-gpX" firstAttribute="top" secondItem="bLv-Gn-xf8" secondAttribute="top" constant="168" id="edw-Sn-Stf"/>
+                <constraint firstItem="bHS-fD-PQ0" firstAttribute="leading" secondItem="tko-fI-1vI" secondAttribute="trailing" constant="8" id="gD1-qQ-Giw"/>
+                <constraint firstAttribute="trailing" secondItem="GSd-Fw-gpX" secondAttribute="trailing" id="lqN-Fe-MN0"/>
+                <constraint firstItem="bHS-fD-PQ0" firstAttribute="leading" secondItem="IO4-oD-elc" secondAttribute="trailing" constant="8" id="nbP-mh-hHH"/>
+                <constraint firstItem="rOx-TR-Snj" firstAttribute="top" secondItem="YfR-gE-Sab" secondAttribute="bottom" id="qLB-Yq-TdK"/>
+                <constraint firstItem="9gU-jU-39Q" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="rJg-AG-edz"/>
+                <constraint firstItem="lOH-jv-U4I" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="rOJ-QW-AbY"/>
+                <constraint firstItem="tko-fI-1vI" firstAttribute="leading" secondItem="bLv-Gn-xf8" secondAttribute="leading" id="wpU-R3-Hi1"/>
+                <constraint firstItem="9gU-jU-39Q" firstAttribute="top" secondItem="tko-fI-1vI" secondAttribute="bottom" constant="1" id="xuu-8x-tIN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activities" destination="IO4-oD-elc" id="WGj-pH-Sqb"/>
+                <outlet property="activityName" destination="GSd-Fw-gpX" id="PTt-Bp-HOI"/>
+                <outlet property="address" destination="tko-fI-1vI" id="TAW-oE-CC5"/>
+                <outlet property="btnEml" destination="83b-yj-Aiq" id="vT0-Du-XSc"/>
+                <outlet property="btnMsg" destination="1ZG-C5-7Db" id="jno-fc-VWt"/>
+                <outlet property="btnTel" destination="5ka-SW-Qbe" id="AUc-6E-chX"/>
+                <outlet property="city" destination="9gU-jU-39Q" id="OAP-Od-XtJ"/>
+                <outlet property="descriptionLabel" destination="YfR-gE-Sab" id="ong-Gl-Wtl"/>
+                <outlet property="descriptionText" destination="rOx-TR-Snj" id="NCY-6K-uiy"/>
+                <outlet property="follow" destination="mjX-gf-voj" id="8L9-Kb-rWQ"/>
+                <outlet property="followedBiz" destination="MIQ-2x-66u" id="feh-17-OhG"/>
+                <outlet property="followedPvt" destination="zTV-8C-HtX" id="awC-mf-ZFr"/>
+                <outlet property="logo" destination="lOH-jv-U4I" id="ddk-gq-bMT"/>
+                <outlet property="viewContactUs" destination="5Ue-J8-OkP" id="nKM-Ex-7XE"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Attività_cinofila" width="256" height="256"/>
+        <image name="Email_arancione" width="256" height="256"/>
+        <image name="Messaggio_arancione" width="256" height="256"/>
+        <image name="Telefono_arancione" width="256" height="256"/>
+        <image name="Utente_privato" width="256" height="256"/>
+        <image name="logoKanito" width="729" height="196"/>
+    </resources>
+</document>
